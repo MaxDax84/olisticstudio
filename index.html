@@ -1461,7 +1461,7 @@
     const cards = Array.prototype.slice.call(track.children).filter(el => el.classList.contains(cardClass));
 
     const mql = window.matchMedia('(max-width:540px)');
-    const DRIFT_SPEED = 0.04; // px/ms — deriva lenta e costante
+    const DRIFT_SPEED = 0.1; // px/ms — deriva lenta ma chiaramente visibile
     let resumeTimer = null, raf = null, rafAuto = null, lastFrameT = null, interacting = false;
 
     function loopWidth() {
