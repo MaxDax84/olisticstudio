@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olistic Studio · Riflessologia Milano | Paolo Torri</title>
+  <meta name="description" content="Riflessologia a Milano · Via Plezzo 36. Paolo Torri, Maestro Riflessologo, 40 anni di esperienza. Tecnica RSNC, gravidanza. Primo incontro gratuito.">
+  <meta name="keywords" content="riflessologia Milano, riflessologo Milano, riflessologia plantare Milano, tecnica RSNC, riflessologia gravidanza Milano, studio olistico Milano, Paolo Torri riflessologo, posturologia Milano, kinesio taping Milano, fitoterapia di Bach Milano, auricoloterapia Milano, AIRRCS, Via Plezzo Milano, riflessologia craniosacrale">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Paolo Torri – Olistic Studio">
+  <link rel="canonical" href="https://www.olisticstudio.com">
+
+  <!-- GEO / LOCAL SEO -->
+  <meta name="geo.region" content="IT-MI">
+  <meta name="geo.placename" content="Milano, Lombardia">
+  <meta name="geo.position" content="45.477;9.239">
+  <meta name="ICBM" content="45.477, 9.239">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.olisticstudio.com">
+  <meta property="og:title" content="Olistic Studio · Riflessologia Milano | Paolo Torri">
+  <meta property="og:description" content="Riflessologia a Milano · Via Plezzo 36. Maestro Riflessologo Paolo Torri, oltre 40 anni di esperienza. Tecnica RSNC, riflessologia in gravidanza. Primo incontro gratuito. ⭐ 5,0 su Google.">
+  <meta property="og:image" content="https://files.supersite.aruba.it/media/30362_89e9cf02757b1821763ed5d03396e1cb98b9a728.jpeg/v1/x_0,y_0,w_343,h_221/019da121-57e7-4795-b8c9-42a55dbca36a.webp">
+  <meta property="og:image:width" content="343">
+  <meta property="og:image:height" content="221">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Olistic Studio">
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Olistic Studio · Riflessologia Milano | Paolo Torri">
+  <meta name="twitter:description" content="Riflessologia a Milano · Via Plezzo 36. Maestro Riflessologo Paolo Torri, oltre 40 anni di esperienza. Primo incontro gratuito.">
+  <meta name="twitter:image" content="https://files.supersite.aruba.it/media/30362_89e9cf02757b1821763ed5d03396e1cb98b9a728.jpeg/v1/x_0,y_0,w_343,h_221/019da121-57e7-4795-b8c9-42a55dbca36a.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family:'Raleway',sans-serif; background:#F7F2EA; color:#2A1E14; overflow-x:hidden; }
+
+    :root {
+      --forest:    #1A3D30;
+      --forest-dk: #0E2820;
+      --sage:      #2E6B5C;
+      --sage-mid:  #5C9E8F;
+      --sage-lt:   #A8C9C2;
+      --cream:     #F7F2EA;
+      --warm:      #EDE4D3;
+      --gold:      #C9A255;
+      --gold-dk:   #8B6511;
+      --brown:     #2A1E14;
+      --brown-mid: #5C4E3D;
+      --brown-lt:  #7A6A59;
+      --rose:      #C4896A;
+      --rose-lt:   #F0E4DC;
+    }
+
+    /* ── Navbar ── */
+    #navbar {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      padding:1.2rem 2rem;
+      transition:background .35s, box-shadow .35s, padding .35s;
+    }
+    #navbar.scrolled {
+      background:rgba(247,242,234,0.97);
+      backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+      box-shadow:0 1px 24px rgba(26,61,48,.09);
+      padding:.75rem 2rem;
+    }
+    .nav-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
+    .logo-link { display:inline-block; border-radius:.6rem; padding:.3rem .6rem; background:rgba(247,242,234,.92); transition:background .35s, padding .35s; }
+    #navbar.scrolled .logo-link { background:transparent; padding:0; }
+    .logo-img { height:48px; width:auto; object-fit:contain; display:block; transition:height .35s; }
+    #navbar.scrolled .logo-img { height:44px; }
+    .nav-links { display:flex; gap:1.8rem; align-items:center; }
+    .nav-link {
+      font-size:.75rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+      text-decoration:none; color:rgba(255,255,255,.8); transition:color .2s;
+    }
+    .nav-link:hover { color:var(--gold); }
+    #navbar.scrolled .nav-link { color:var(--brown-mid); }
+    #navbar.scrolled .nav-link:hover { color:var(--gold); }
+    .nav-cta {
+      font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+      text-decoration:none; color:var(--forest); background:var(--gold);
+      padding:.5rem 1.3rem; border-radius:2rem; transition:background .2s, transform .15s;
+    }
+    .nav-cta:hover { background:#E8C070; transform:translateY(-1px); }
+    .burger { display:none; background:none; border:none; cursor:pointer; padding:4px; }
+    .burger-line { display:block; width:24px; height:2px; background:white; margin:5px 0; transition:background .25s; }
+    #navbar.scrolled .burger-line { background:var(--brown); }
+
+    /* Mobile menu */
+    #mobile-menu {
+      display:none; position:fixed; inset:0; z-index:200;
+      background:var(--forest-dk);
+      flex-direction:column; align-items:center; justify-content:center; gap:1.8rem;
+    }
+    #mobile-menu.open { display:flex; }
+    .mob-link { font-family:'Lora',serif; font-size:1.6rem; font-weight:600; color:white; text-decoration:none; transition:color .2s; }
+    .mob-link:hover { color:var(--gold); }
+    .mob-close { position:absolute; top:1.5rem; right:1.5rem; background:none; border:none; cursor:pointer; color:white; }
+
+    /* ── Helpers ── */
+    .container { max-width:1200px; margin:0 auto; padding:0 2rem; }
+    section { position:relative; }
+    .wave { display:block; width:100%; overflow:hidden; line-height:0; }
+    .wave svg { display:block; width:100%; }
+
+    /* Reveal animation */
+    .reveal { opacity:0; transform:translateY(26px); transition:opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+    .reveal-d1 { transition-delay:.1s; }
+    .reveal-d2 { transition-delay:.2s; }
+    .reveal-d3 { transition-delay:.3s; }
+
+    /* Gold bar */
+    .gold-bar { width:44px; height:2px; background:linear-gradient(90deg,var(--gold),var(--gold-dk)); margin:.75rem 0 1.5rem; }
+    .gold-bar-c { margin:.75rem auto 1.5rem; }
+
+    /* Section headers */
+    .section-eyebrow { font-size:.7rem; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:var(--sage-mid); }
+    .section-h2 { font-family:'Lora',serif; font-size:clamp(1.9rem,3.5vw,2.8rem); font-weight:600; color:var(--forest); line-height:1.2; margin:.65rem 0 0; }
+    .section-h2 em { font-style:italic; font-weight:400; color:var(--sage); }
+    .body-text { font-size:.97rem; color:var(--brown-mid); line-height:1.82; }
+
+    /* Buttons */
+    .btn-primary {
+      display:inline-block; text-decoration:none;
+      font-size:.82rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+      color:var(--forest); background:var(--gold); padding:.9rem 2.2rem; border-radius:2rem;
+      transition:background .2s, transform .15s;
+    }
+    .btn-primary:hover { background:#E8C070; transform:translateY(-2px); }
+    .btn-ghost {
+      display:inline-flex; align-items:center; gap:.5rem; text-decoration:none;
+      font-size:.82rem; font-weight:500; letter-spacing:.08em;
+      color:rgba(255,255,255,.7); transition:color .2s;
+    }
+    .btn-ghost:hover { color:white; }
+
+    /* ── HERO ── */
+    #hero {
+      min-height:100vh;
+      background:linear-gradient(rgba(10,30,20,.72), rgba(14,40,32,.82)),
+        url('https://files.supersite.aruba.it/media/30362_65b284354d691f8aab8102c2bee2a1880a28e9d1.jpeg/v1/w_1264,h_0/copertinasito1_2.webp') center/cover no-repeat;
+      display:flex; align-items:center;
+    }
+    .hero-content { position:relative; z-index:2; padding:8rem 2rem 5rem; max-width:1200px; margin:0 auto; width:100%; }
+    .hero-eyebrow { display:inline-flex; align-items:center; gap:.75rem; margin-bottom:1.75rem; }
+    .hero-line { width:32px; height:1.5px; background:var(--gold); }
+    .eyebrow-text { font-size:.7rem; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:var(--sage-lt); }
+    .hero-h1 { font-family:'Lora',serif; font-size:clamp(2.8rem,6vw,5rem); font-weight:600; color:white; line-height:1.07; margin-bottom:1.5rem; }
+    .hero-h1 em { font-style:italic; color:var(--gold); }
+    .hero-sub { font-size:1rem; color:rgba(255,255,255,.68); line-height:1.78; margin-bottom:2.5rem; max-width:540px; }
+    .hero-ctas { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; margin-bottom:4rem; }
+    .hero-badge {
+      display:inline-flex; align-items:center; gap:.6rem;
+      background:rgba(201,162,85,.15); border:1px solid rgba(201,162,85,.35);
+      padding:.6rem 1.2rem; border-radius:2rem;
+      font-size:.77rem; font-weight:600; letter-spacing:.08em; color:var(--gold);
+    }
+    .hero-stats {
+      display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem;
+      border-top:1px solid rgba(168,201,194,.18); padding-top:2.5rem;
+    }
+    .stat-num { font-family:'Lora',serif; font-size:2rem; font-weight:700; color:var(--gold); line-height:1; }
+    .stat-label { font-size:.68rem; font-weight:500; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.45); margin-top:.3rem; }
+
+    @keyframes bounce-y { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(6px)} }
+
+    /* ── QUOTE STRIP ── */
+    #quote { background:var(--cream); padding:4rem 2rem; text-align:center; }
+    .quote-text { font-family:'Lora',serif; font-size:clamp(1.1rem,2.5vw,1.45rem); font-style:italic; font-weight:500; color:var(--sage); line-height:1.65; max-width:720px; margin:0 auto; }
+
+    /* ── UN NUOVO MODO ── */
+    #metodo { background:var(--warm); padding:7rem 2rem; }
+    .metodo-grid { display:grid; grid-template-columns:5fr 4fr; gap:5rem; align-items:center; }
+    .metodo-img-wrap { position:relative; }
+    .metodo-img { width:100%; height:460px; object-fit:cover; border-radius:1.5rem; box-shadow:0 24px 64px rgba(26,61,48,.18); }
+    .metodo-tag {
+      position:absolute; bottom:1.5rem; left:1.5rem;
+      background:white; border-radius:.75rem; padding:.6rem 1rem;
+      font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+      color:var(--forest); box-shadow:0 4px 16px rgba(0,0,0,.12);
+    }
+    .free-badge {
+      display:inline-flex; align-items:center; gap:.5rem;
+      background:rgba(201,162,85,.12); border:1.5px solid rgba(201,162,85,.35);
+      padding:.55rem 1.1rem; border-radius:2rem;
+      font-size:.75rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+      color:var(--gold-dk); margin-top:2rem;
+    }
+
+    /* ── LE TECNICHE ── */
+    #tecniche { background:var(--cream); padding:7rem 2rem; }
+    .tech-intro { max-width:700px; margin:0 auto 4rem; text-align:center; }
+    .tech-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.75rem; }
+    .tech-card {
+      background:white; border-radius:1.25rem; overflow:hidden;
+      box-shadow:0 4px 20px rgba(26,61,48,.07);
+      border:1.5px solid rgba(168,201,194,.2);
+      transition:transform .25s, box-shadow .25s, border-color .25s;
+    }
+    .tech-card:hover { transform:translateY(-4px); box-shadow:0 12px 36px rgba(26,61,48,.12); border-color:rgba(201,162,85,.35); }
+    .tech-img { width:100%; height:200px; object-fit:cover; }
+    .tech-body { padding:1.5rem; }
+    .tech-badge { display:inline-block; font-size:.62rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--sage-mid); margin-bottom:.5rem; }
+    .tech-h3 { font-family:'Lora',serif; font-size:1.15rem; font-weight:600; color:var(--forest); margin-bottom:.6rem; line-height:1.3; }
+    .tech-p { font-size:.83rem; color:var(--brown-mid); line-height:1.75; }
+
+    /* ── RSNC DARK ── */
+    #rsnc {
+      background:linear-gradient(145deg,#091C14 0%,#1A3D30 55%,#091C14 100%);
+      padding:7rem 2rem;
+    }
+    .rsnc-grid { display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center; }
+    .rsnc-eyebrow { font-size:.7rem; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:var(--sage-lt); }
+    .rsnc-h2 { font-family:'Lora',serif; font-size:clamp(1.9rem,3.5vw,2.8rem); font-weight:600; color:white; line-height:1.2; margin:.65rem 0 1.5rem; }
+    .rsnc-h2 em { font-style:italic; color:var(--gold); }
+    .rsnc-p { font-size:.97rem; color:rgba(255,255,255,.68); line-height:1.82; margin-bottom:1rem; }
+    .check-list { display:flex; flex-direction:column; gap:.85rem; margin-top:1.8rem; }
+    .check-row { display:flex; gap:.75rem; align-items:flex-start; }
+    .check-row span { font-size:.88rem; color:rgba(255,255,255,.68); line-height:1.55; }
+    .rsnc-img-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+    .rsnc-img { width:100%; height:200px; object-fit:cover; border-radius:1rem; }
+    .rsnc-img.tall { height:420px; grid-row:span 2; }
+
+    /* ── IL TERAPEUTA ── */
+    #terapeuta { background:var(--warm); padding:7rem 2rem; }
+    .tera-grid { display:grid; grid-template-columns:2fr 3fr; gap:5rem; align-items:start; }
+    .tera-img { width:100%; border-radius:1.5rem; object-fit:cover; box-shadow:0 24px 64px rgba(26,61,48,.18); }
+    .tera-img2 { width:100%; margin-top:1.25rem; border-radius:1.25rem; object-fit:cover; box-shadow:0 8px 32px rgba(26,61,48,.12); }
+    .tera-name { font-family:'Lora',serif; font-size:2rem; font-weight:700; color:var(--forest); margin:.5rem 0 .25rem; }
+    .tera-role { font-size:.85rem; color:var(--sage); font-weight:600; letter-spacing:.06em; margin-bottom:1.5rem; line-height:1.55; }
+    .studi-title { font-size:.7rem; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--sage-mid); margin:2rem 0 .75rem; }
+    .studi-list { display:flex; flex-direction:column; gap:.6rem; }
+    .studi-item { display:flex; gap:.75rem; align-items:flex-start; }
+    .studi-dot { width:7px; height:7px; min-width:7px; border-radius:50%; background:var(--gold); margin-top:6px; }
+    .studi-text { font-size:.84rem; color:var(--brown-mid); line-height:1.5; }
+    .studi-sub { font-size:.76rem; color:var(--brown-lt); }
+    .avail-box { margin-top:2rem; padding:1.1rem 1.4rem; background:rgba(26,61,48,.07); border-radius:1rem; border-left:3px solid var(--gold); }
+    .avail-text { font-size:.87rem; color:var(--forest); line-height:1.6; }
+
+    /* ── DOVE SIAMO ── */
+    #dove { background:var(--cream); padding:7rem 2rem; }
+    .dove-grid { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start; }
+    .studio-img { width:100%; border-radius:1.25rem; object-fit:cover; box-shadow:0 8px 28px rgba(26,61,48,.1); }
+    .come-items { display:flex; flex-direction:column; gap:1.1rem; margin-top:2rem; }
+    .come-row { display:flex; gap:1rem; align-items:flex-start; }
+    .come-icon { width:40px; height:40px; min-width:40px; border-radius:.7rem; background:rgba(46,107,92,.1); display:flex; align-items:center; justify-content:center; }
+    .come-label { font-size:.7rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--forest); }
+    .come-val { font-size:.88rem; color:var(--brown-mid); margin-top:.1rem; line-height:1.5; }
+    .gratuito-banner { margin-top:2.5rem; padding:1.25rem 1.5rem; border-radius:1rem; background:linear-gradient(135deg,var(--sage),var(--forest)); color:white; }
+    .gratuito-title { font-family:'Lora',serif; font-size:1.05rem; font-weight:600; margin-bottom:.4rem; }
+    .gratuito-sub { font-size:.84rem; color:rgba(255,255,255,.8); line-height:1.6; }
+
+    /* ── CONTATTI ── */
+    #contatti { background:var(--warm); padding:7rem 2rem; }
+    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:start; }
+    .contact-intro { font-size:.97rem; color:var(--brown-mid); line-height:1.82; margin-bottom:2rem; }
+    .ci-items { display:flex; flex-direction:column; gap:1.25rem; }
+    .ci { display:flex; gap:1rem; align-items:flex-start; }
+    .ci-icon { width:44px; height:44px; min-width:44px; border-radius:.8rem; background:rgba(46,107,92,.1); display:flex; align-items:center; justify-content:center; }
+    .ci-label { font-size:.7rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--forest); margin-bottom:.15rem; }
+    .ci-val { font-size:.92rem; color:var(--brown-mid); text-decoration:none; transition:color .2s; }
+    a.ci-val:hover { color:var(--gold); }
+    .form-card { background:white; border-radius:1.5rem; padding:2.5rem; box-shadow:0 4px 28px rgba(26,61,48,.07); border:1.5px solid rgba(168,201,194,.22); }
+    .form-title { font-family:'Lora',serif; font-size:1.3rem; font-weight:600; color:var(--forest); margin-bottom:1.5rem; text-align:center; }
+    .form-fields { display:flex; flex-direction:column; gap:1rem; }
+    .field-label { display:block; font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--brown-mid); margin-bottom:.35rem; text-align:center; }
+    .field-input { width:100%; padding:.8rem 1rem; border:1.5px solid #E8DED0; border-radius:.75rem; font-family:'Raleway',sans-serif; font-size:.9rem; color:var(--brown); background:#FDFAF6; outline:none; transition:border-color .2s, box-shadow .2s; text-align:center; }
+    .field-input:focus { border-color:var(--sage); box-shadow:0 0 0 3px rgba(46,107,92,.1); }
+    .field-input::placeholder { color:#BFB8AD; }
+    textarea.field-input { text-align:left; }
+    .btn-submit { width:100%; padding:.9rem; background:linear-gradient(135deg,var(--sage),var(--forest)); color:white; border:none; border-radius:.75rem; font-family:'Raleway',sans-serif; font-size:.82rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; cursor:pointer; transition:opacity .2s, transform .15s; text-align:center; }
+    .btn-submit:hover { opacity:.88; transform:translateY(-1px); }
+
+    /* ── RECENSIONI ── */
+    #recensioni { background:var(--warm); padding:7rem 2rem; }
+    .rec-badge { display:inline-flex; align-items:center; gap:.75rem; background:white; border:1.5px solid rgba(201,162,85,.3); border-radius:2rem; padding:.6rem 1.4rem; margin-bottom:3rem; box-shadow:0 2px 12px rgba(26,61,48,.07); }
+    .rec-badge-stars { display:flex; gap:2px; }
+    .rec-badge-num { font-family:'Lora',serif; font-size:1.25rem; font-weight:700; color:var(--forest); }
+    .rec-badge-label { font-size:.78rem; color:var(--brown-lt); font-weight:600; }
+    .rec-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; }
+    .rec-card { background:white; border-radius:1.25rem; padding:1.75rem; border:1.5px solid rgba(168,201,194,.2); box-shadow:0 4px 20px rgba(26,61,48,.06); display:flex; flex-direction:column; gap:1rem; }
+    .rec-stars { display:flex; gap:3px; }
+    .rec-text { font-size:.88rem; color:var(--brown-mid); line-height:1.78; flex:1; font-style:italic; }
+    .rec-text::before { content:'"'; color:var(--gold); font-size:1.2rem; font-family:'Lora',serif; line-height:0; vertical-align:-.2rem; margin-right:.15rem; }
+    .rec-text::after  { content:'"'; color:var(--gold); font-size:1.2rem; font-family:'Lora',serif; line-height:0; vertical-align:-.2rem; margin-left:.15rem; }
+    .rec-author { display:flex; align-items:center; gap:.75rem; margin-top:auto; padding-top:.85rem; border-top:1px solid rgba(168,201,194,.2); }
+    .rec-avatar { width:36px; height:36px; border-radius:50%; background:linear-gradient(135deg,var(--sage-lt),var(--sage)); display:flex; align-items:center; justify-content:center; font-family:'Lora',serif; font-size:.95rem; font-weight:700; color:white; flex-shrink:0; }
+    .rec-name { font-size:.82rem; font-weight:700; color:var(--forest); }
+    .rec-meta { font-size:.72rem; color:var(--brown-lt); margin-top:.1rem; }
+    .rec-cta { display:inline-flex; align-items:center; gap:.5rem; margin-top:2.5rem; font-size:.8rem; font-weight:600; color:var(--sage); text-decoration:none; transition:color .2s; }
+    .rec-cta:hover { color:var(--gold); }
+    @media(max-width:768px) { .rec-grid { grid-template-columns:1fr 1fr; } }
+    @media(max-width:540px) { .rec-grid { grid-template-columns:1fr; } }
+
+    /* ── SOCIAL ── */
+    .social-row { display:flex; gap:.6rem; margin-top:1rem; flex-wrap:wrap; }
+    .social-btn { display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:50%; border:1.5px solid rgba(46,107,92,.3); color:var(--sage); text-decoration:none; transition:all .2s; cursor:pointer; }
+    .social-btn:hover { border-color:var(--gold); color:var(--gold); background:rgba(201,162,85,.08); }
+    .social-btn-footer { display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:50%; border:1.5px solid rgba(255,255,255,.18); color:rgba(255,255,255,.55); text-decoration:none; transition:all .2s; cursor:pointer; }
+    .social-btn-footer:hover { border-color:var(--gold); color:var(--gold); }
+
+    /* ── FOOTER ── */
+    footer { background:var(--forest-dk); padding:3.5rem 2rem 2rem; }
+    .footer-inner { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:2.5rem; margin-bottom:2rem; }
+    .footer-logo { height:48px; border-radius:.5rem; background:rgba(247,242,234,.1); padding:.25rem .5rem; }
+    .footer-col-label { font-size:.63rem; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--sage-lt); margin-bottom:.75rem; }
+    .footer-links { display:flex; flex-direction:column; gap:.35rem; }
+    .footer-link { font-size:.82rem; color:rgba(255,255,255,.45); text-decoration:none; transition:color .2s; }
+    .footer-link:hover { color:var(--gold); }
+    .footer-bottom { border-top:1px solid rgba(255,255,255,.07); padding-top:1.25rem; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:1rem; max-width:1200px; margin:0 auto; font-size:.72rem; color:rgba(255,255,255,.25); }
+
+    /* ── COOKIE BANNER ── */
+    #cookie-banner { display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:var(--forest-dk); border-top:1px solid rgba(168,201,194,.2); padding:1rem 2rem; align-items:center; justify-content:space-between; gap:1.5rem; flex-wrap:wrap; }
+    .cookie-text { font-size:.82rem; color:rgba(255,255,255,.7); line-height:1.6; max-width:700px; }
+    .cookie-text a { color:var(--sage-lt); }
+    .cookie-btns { display:flex; gap:.6rem; flex-shrink:0; }
+    .btn-accept { background:var(--sage); color:#fff; border:none; padding:.55rem 1.2rem; border-radius:2rem; font-size:.8rem; font-weight:600; cursor:pointer; transition:background .2s; }
+    .btn-accept:hover { background:var(--forest); }
+    .btn-reject { background:transparent; color:rgba(255,255,255,.45); border:1px solid rgba(255,255,255,.2); padding:.55rem 1.2rem; border-radius:2rem; font-size:.8rem; cursor:pointer; transition:all .2s; }
+    .btn-reject:hover { color:rgba(255,255,255,.7); border-color:rgba(255,255,255,.4); }
+
+    /* ── MODALI POLICY ── */
+    .modal-overlay { display:none; position:fixed; inset:0; z-index:10000; background:rgba(9,28,20,.8); backdrop-filter:blur(4px); align-items:center; justify-content:center; padding:1.5rem; }
+    .modal-box { background:var(--cream); border-radius:1.25rem; max-width:720px; width:100%; max-height:88vh; overflow-y:auto; padding:2.5rem 2.5rem 2rem; position:relative; }
+    .modal-close { position:absolute; top:1.1rem; right:1.25rem; background:none; border:none; font-size:1.5rem; cursor:pointer; color:var(--brown-mid); line-height:1; }
+    .modal-close:hover { color:var(--forest); }
+    .modal-box h2 { font-family:'Lora',serif; font-size:1.5rem; font-weight:600; color:var(--forest); margin:0 0 .3rem; }
+    .modal-box .modal-date { font-size:.75rem; color:var(--brown-lt); margin-bottom:1.75rem; }
+    .modal-box h3 { font-size:.8rem; font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:var(--sage); margin:1.5rem 0 .4rem; }
+    .modal-box p, .modal-box li { font-size:.88rem; color:var(--brown-mid); line-height:1.7; }
+    .modal-box ul { padding-left:1.2rem; margin:.3rem 0; }
+    .modal-box a { color:var(--sage); }
+
+    /* ── RESPONSIVE ── */
+    /* ── MATERNITÀ ── */
+    #maternita { background:var(--rose-lt); padding:7rem 2rem; }
+    .mat-intro { max-width:700px; margin:0 auto 4rem; text-align:center; }
+    .mat-eyebrow { font-size:.7rem; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:var(--rose); }
+    .mat-h2 { font-family:'Lora',serif; font-size:clamp(1.9rem,3.5vw,2.8rem); font-weight:600; color:var(--forest); line-height:1.2; margin:.65rem 0 0; }
+    .mat-h2 em { font-style:italic; font-weight:400; color:var(--rose); }
+    .mat-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1.75rem; }
+    .mat-card {
+      background:white; border-radius:1.5rem; padding:2.2rem;
+      box-shadow:0 4px 24px rgba(196,137,106,.1);
+      border:1.5px solid rgba(196,137,106,.18);
+      transition:transform .25s, box-shadow .25s, border-color .25s;
+    }
+    .mat-card:hover { transform:translateY(-4px); box-shadow:0 12px 36px rgba(196,137,106,.18); border-color:rgba(196,137,106,.4); }
+    .mat-icon {
+      width:52px; height:52px; border-radius:1rem;
+      background:linear-gradient(135deg,var(--rose),#A86040);
+      display:flex; align-items:center; justify-content:center; margin-bottom:1.2rem;
+    }
+    .mat-badge {
+      display:inline-block; font-size:.62rem; font-weight:700; letter-spacing:.18em;
+      text-transform:uppercase; color:var(--rose); margin-bottom:.5rem;
+    }
+    .mat-h3 { font-family:'Lora',serif; font-size:1.2rem; font-weight:600; color:var(--forest); margin-bottom:.7rem; line-height:1.3; }
+    .mat-p { font-size:.85rem; color:var(--brown-mid); line-height:1.78; }
+    .mat-sub { font-size:.78rem; color:var(--brown-lt); margin-top:.6rem; font-style:italic; }
+    .mat-video-badge {
+      display:inline-flex; align-items:center; gap:.5rem;
+      margin-top:.8rem; font-size:.76rem; font-weight:600; color:var(--rose);
+      background:rgba(196,137,106,.1); padding:.3rem .8rem; border-radius:2rem;
+    }
+    .mat-bottom {
+      margin-top:3.5rem; padding:2rem 2.5rem;
+      background:linear-gradient(135deg,var(--forest),var(--sage));
+      border-radius:1.5rem; display:flex; align-items:center;
+      gap:2rem; flex-wrap:wrap;
+    }
+    .mat-bottom-text { flex:1; min-width:260px; }
+    .mat-bottom-title { font-family:'Lora',serif; font-size:1.15rem; font-weight:600; color:white; margin-bottom:.4rem; }
+    .mat-bottom-sub { font-size:.87rem; color:rgba(255,255,255,.7); line-height:1.6; }
+
+    @media (max-width:1024px) {
+      .nav-links, .nav-cta { display:none; }
+      .burger { display:block; }
+      .hero-stats { grid-template-columns:repeat(2,1fr); }
+    }
+    @media (max-width:768px) {
+      .metodo-grid, .rsnc-grid, .tera-grid, .dove-grid, .contact-grid { grid-template-columns:1fr; gap:3rem; }
+      .mat-grid { grid-template-columns:1fr; }
+      .tech-grid { grid-template-columns:1fr 1fr; }
+      .rsnc-img-grid { grid-template-columns:1fr; }
+      .rsnc-img.tall { height:240px; grid-row:auto; }
+      .metodo-img { height:320px; }
+    }
+    @media (max-width:540px) {
+      .hero-stats { grid-template-columns:1fr 1fr; }
+
+      /* ── Caroselli orizzontali mobile ── */
+      .tech-grid, .mat-grid, .rec-grid {
+        display:flex;
+        overflow-x:auto;
+        scroll-snap-type:x mandatory;
+        -webkit-overflow-scrolling:touch;
+        touch-action:pan-y;
+        scrollbar-width:none;
+        gap:1rem;
+        margin-left:-2rem;
+        margin-right:-2rem;
+        padding:0 1.5rem 1.5rem;
+      }
+      .tech-grid::-webkit-scrollbar,
+      .mat-grid::-webkit-scrollbar,
+      .rec-grid::-webkit-scrollbar { display:none; }
+
+      .tech-card { flex:0 0 78vw; scroll-snap-align:start; }
+      .mat-card  { flex:0 0 82vw; scroll-snap-align:start; }
+      .rec-card  { flex:0 0 82vw; scroll-snap-align:start; }
+
+      .tech-grid .reveal,
+      .mat-grid  .reveal { opacity:1 !important; transform:none !important; }
+
+      /* ── mat-bottom: impila verticalmente e centra il bottone ── */
+      .mat-bottom {
+        flex-direction:column;
+        align-items:stretch;
+        padding:1.75rem 1.5rem;
+        gap:1.5rem;
+      }
+      .mat-bottom-text { min-width:unset; }
+      .mat-bottom .btn-primary { text-align:center; display:block; }
+    }
+  </style>
+
+  <!-- JSON-LD STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["HealthAndBeautyBusiness", "LocalBusiness"],
+        "@id": "https://www.olisticstudio.com/#business",
+        "name": "Olistic Studio",
+        "description": "Studio di riflessologia plantare, posturologia e tecniche olistiche naturali a Milano. Paolo Torri, Maestro Riflessologo con oltre 40 anni di esperienza. Specializzato in Tecnica RSNC, riflessologia in gravidanza, Fitoterapia di Bach e Kinesio Taping.",
+        "url": "https://www.olisticstudio.com",
+        "telephone": "+393884756132",
+        "email": "paolo.torri@olisticstudio.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Plezzo 36",
+          "addressLocality": "Milano",
+          "postalCode": "20100",
+          "addressCountry": "IT"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 45.477,
+          "longitude": 9.239
+        },
+        "priceRange": "€€",
+        "currenciesAccepted": "EUR",
+        "paymentAccepted": "Contanti, Carta",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "13",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Marcella R." },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+            "reviewBody": "Sono davvero soddisfatta del percorso che sto facendo con Paolo… professionale, con grandi competenze, entra in empatia in poco tempo e ti permette di sentirti a tuo agio e in relax."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Antonella Onorati" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+            "reviewBody": "Professionalità al top. Quando esci dallo studio ti rendi conto che Paolo riesce a farti fare pace con il tuo corpo. Esperienza da fare."
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Chiara Longhin" },
+            "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+            "reviewBody": "Massima professionalità. Preparazione e dedizione. Ambiente estremamente accogliente, trattamento efficace e rilassante su musiche dedicate. Esperienza unica!"
+          }
+        ],
+        "hasMap": "https://maps.google.com/?q=Via+Plezzo+36+Milano+20100",
+        "sameAs": [
+          "https://www.facebook.com/paolo.torri.100/?locale=it_IT",
+          "https://www.instagram.com/paolotorririflessologo/",
+          "https://www.youtube.com/@paolotorrimaestroriflessol4385"
+        ],
+        "founder": { "@id": "https://www.olisticstudio.com/#paolo-torri" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.olisticstudio.com/#paolo-torri",
+        "name": "Paolo Torri",
+        "jobTitle": "Maestro Riflessologo",
+        "description": "Maestro Riflessologo con oltre 40 anni di esperienza clinica. Fondatore di Olistic Studio a Milano. Membro AIRRCS (Associazione Italiana Riflessologi Riflesso Craniosacrali).",
+        "worksFor": { "@id": "https://www.olisticstudio.com/#business" },
+        "sameAs": [
+          "https://www.instagram.com/paolotorririflessologo/",
+          "https://www.youtube.com/@paolotorrimaestroriflessol4385"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo-link">
+      <img src="https://files.supersite.aruba.it/media/30362_89e9cf02757b1821763ed5d03396e1cb98b9a728.jpeg/v1/x_0,y_0,w_343,h_221/019da121-57e7-4795-b8c9-42a55dbca36a.webp"
+           alt="Olistic Studio" class="logo-img">
+    </a>
+    <div class="nav-links">
+      <a href="#metodo"    class="nav-link">Il Metodo</a>
+      <a href="#tecniche"   class="nav-link">Le Tecniche</a>
+      <a href="#maternita"  class="nav-link">Maternità</a>
+      <a href="#terapeuta"   class="nav-link">Il Terapeuta</a>
+      <a href="#recensioni"  class="nav-link">Recensioni</a>
+      <a href="#dove"        class="nav-link">Dove Siamo</a>
+      <a href="#contatti"  class="nav-link">Contatti</a>
+      <a href="#contatti"  class="nav-cta">Scrivimi o prenota</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span class="burger-line"></span><span class="burger-line"></span><span class="burger-line"></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mobile-menu">
+  <button class="mob-close" id="mob-close" aria-label="Chiudi">
+    <svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+  </button>
+  <a href="#metodo"    class="mob-link">Il Metodo</a>
+  <a href="#tecniche"  class="mob-link">Le Tecniche</a>
+  <a href="#maternita" class="mob-link">Maternità</a>
+  <a href="#terapeuta"  class="mob-link">Il Terapeuta</a>
+  <a href="#recensioni" class="mob-link">Recensioni</a>
+  <a href="#dove"       class="mob-link">Dove Siamo</a>
+  <a href="#contatti"  class="mob-link" style="color:var(--gold)">Scrivimi o prenota →</a>
+</div>
+
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hero-content">
+    <div style="max-width:620px">
+      <div class="hero-eyebrow">
+        <div class="hero-line"></div>
+        <span class="eyebrow-text">Olistic Studio · Milano</span>
+      </div>
+      <h1 class="hero-h1">
+        Un nuovo<br>modo di<br><em>curarsi.</em>
+      </h1>
+      <p class="hero-sub">
+        Trattamenti innovativi che nascono da anni di ricerche scientifiche e mirano in modo indolore e naturale a risolvere le più comuni problematiche di ogni apparato, in un clima di cordiale ascolto.
+      </p>
+      <div class="hero-ctas">
+        <a href="#tecniche"  class="btn-primary">Scopri le tecniche</a>
+        <a href="#terapeuta" class="btn-ghost">Paolo Torri <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="hero-badge">
+        <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Primo incontro gratuito e non vincolante
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">30</div><div class="stat-label">Anni di esperienza</div></div>
+      <div><div class="stat-num">12</div><div class="stat-label">Tecniche integrate</div></div>
+      <div><div class="stat-num">RSNC</div><div class="stat-label">Tecnica esclusiva</div></div>
+      <div><div class="stat-num">365</div><div class="stat-label">Giorni disponibile</div></div>
+    </div>
+  </div>
+  <div style="position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);text-align:center;opacity:.35;animation:bounce-y 2.2s ease infinite">
+    <div style="font-size:.6rem;letter-spacing:.28em;color:white;text-transform:uppercase;margin-bottom:.4rem">Scroll</div>
+    <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</section>
+
+<div class="wave" style="background:rgba(14,40,32,0.01)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,56 C360,0 1080,56 1440,0 L1440,0 L0,0 Z" fill="var(--cream)"/></svg>
+</div>
+
+
+<!-- ═══ QUOTE ═══ -->
+<section id="quote" style="background:var(--cream);padding:4rem 2rem;text-align:center">
+  <div class="quote-text reveal">
+    "Dopo aver fondato 25 anni fa l'A.I.R.R.C.S. ed aver perfezionato insieme al mio staff multidisciplinare tecniche diagnostiche e terapeutiche, ora voglio applicarle per potervi curare in modo naturale."
+  </div>
+  <div class="gold-bar gold-bar-c reveal reveal-d1"></div>
+  <div style="text-align:center;font-size:.8rem;font-weight:600;letter-spacing:.1em;color:var(--brown-lt);text-transform:uppercase" class="reveal reveal-d2">— Paolo Torri, Fondatore Olistic Studio</div>
+</section>
+
+<div class="wave" style="background:var(--cream)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,0 C360,56 1080,0 1440,56 L1440,56 L0,56 Z" fill="var(--warm)"/></svg>
+</div>
+
+
+<!-- ═══ UN NUOVO MODO DI CURARSI ═══ -->
+<section id="metodo" style="background:var(--warm);padding:7rem 2rem">
+  <div class="container">
+    <div class="metodo-grid">
+      <div class="reveal">
+        <span class="section-eyebrow">Il Metodo</span>
+        <h2 class="section-h2">Un nuovo modo<br><em>di curarsi</em></h2>
+        <div class="gold-bar"></div>
+        <p class="body-text" style="margin-bottom:1.1rem">
+          La piena incarnazione del concetto Olistico Antroposofico mira a risolvere la causa profonda del malessere dopo un'attenta analisi ed ascolto della persona sofferente.
+        </p>
+        <p class="body-text" style="margin-bottom:1.1rem">
+          Ogni tecnica è <strong style="color:var(--forest)">indolore e priva di effetti collaterali</strong>, inserita in una strategia di cura che tiene in considerazione la totalità della persona e non il singolo disturbo. Testata, di sicura efficacia, non si sostituisce alla medicina convenzionale ma la integra.
+        </p>
+        <p class="body-text">
+          Il primo incontro sarà dedicato all'ascolto, alla compilazione della scheda personale, alla valutazione e diagnosi con tecniche riflesse, alla spiegazione della strategia di cura... e a un dolce trattamento.
+        </p>
+        <div class="free-badge">
+          <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          Prima consultazione gratuita e non vincolante
+        </div>
+      </div>
+      <div class="metodo-img-wrap reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_74667a0f8997404deb8e511d681d81b1a7fb4057.jpeg/v1/x_0,y_0,w_426,h_520/0249863c-89e9-4066-a454-44d560556c25.webp"
+             alt="Un nuovo modo di curarsi — Olistic Studio" class="metodo-img">
+        <div class="metodo-tag">Studio a Milano · Via Plezzo 36</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wave" style="background:var(--warm)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,56 C480,0 960,56 1440,0 L1440,56 L0,56 Z" fill="var(--cream)"/></svg>
+</div>
+
+
+<!-- ═══ LE TECNICHE ═══ -->
+<section id="tecniche" style="background:var(--cream);padding:7rem 2rem">
+  <div class="container">
+    <div class="tech-intro reveal">
+      <span class="section-eyebrow">Le Tecniche</span>
+      <h2 class="section-h2">Tecniche in costante<br><em>rielaborazione e miglioramento</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+      <p class="body-text">Ogni trattamento è totalmente personalizzato sulla persona e sui suoi problemi, sviluppato dallo staff di ricercatori dell'A.I.R.R.C.S. nel pieno rispetto dell'approccio Olistico.</p>
+    </div>
+
+    <div class="tech-grid">
+
+      <div class="tech-card reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_d632ca3707d46df490f7b2ad3376f6e97f5857d0.jpeg/v1/x_0,y_0,w_567,h_378/riflesplantsito.webp" alt="Riflessologia Plantare RSNC" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Tecnica esclusiva RSNC</span>
+          <h3 class="tech-h3">Riflessologia Plantare Olistico-Antroposofica</h3>
+          <p class="tech-p">Massaggio zonale del piede che stimola direttamente una risposta cerebrale, decodificata in risposta ormonale capace di regolarizzare il metabolismo e innescare i meccanismi di autoguarigione.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d2">
+        <img src="https://files.supersite.aruba.it/media/30362_4c03550af413efbe4fdfd380c8fc6f9d32740112.jpeg/v1/x_0,y_0,w_567,h_708/9a633fe1-4191-4535-9ac7-fe4f48c8d2f7.webp" alt="Riflessologia Palmare" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Riflessologia</span>
+          <h3 class="tech-h3">Riflessologia Palmare Olistica</h3>
+          <p class="tech-p">Eseguita sulle mani con stimolatori elettrici, laser e cristalli. Di rapidissimo riscontro clinico per patologie di tutto l'apparato, usata in associazione alla plantare per enfatizzarne l'efficacia.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d3">
+        <img src="https://files.supersite.aruba.it/media/30362_4dbbe0ecbd961dcc28b9b6d8eb9d284c934dbad0.jpeg/v1/x_0,y_0,w_266,h_398/f32b0102-730e-46fd-909a-ace6d11c8748.webp" alt="Auricoloterapia Olistica" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Metodo Nogier</span>
+          <h3 class="tech-h3">Auricoloterapia Olistica</h3>
+          <p class="tech-p">Dalla geniale intuizione di Paul Nogier: stimolazione del padiglione auricolare. Efficacissima per patologie di tutti gli apparati, problematiche psicosomatiche e dipendenze.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_ebfe67859a7a7a33c701f100648f809566974d2a.jpeg/v1/x_0,y_0,w_567,h_401/fitoterapiasito.webp" alt="Fitoterapia di Bach" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Centro Dr. Bach · Kusnacht</span>
+          <h3 class="tech-h3">Fitoterapia di Bach Applicata</h3>
+          <p class="tech-p">Essenze di fiori per via sublinguale, topica e orale. I principi attivi armonizzano il metabolismo e sintonizzano il corpo con la mente, agendo contemporaneamente su entrambi i livelli.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d2">
+        <img src="https://files.supersite.aruba.it/media/30362_a90cbf7ab54fbf66b37c344a1aa46e6d2c1e83eb.jpeg/v1/x_0,y_0,w_567,h_378/kinesiosito.webp" alt="Kinesio Taping Olistico" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Metodo Busquet</span>
+          <h3 class="tech-h3">Kinesio Taping Globale-Olistico</h3>
+          <p class="tech-p">Bendaggio elastico adesivo con visione olistica secondo Busquet: non il solo segmento corporeo ma la totalità della catena cinetica. Agisce su muscoli, articolazioni, tendini e vasi linfatici.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d3">
+        <img src="https://files.supersite.aruba.it/media/30362_e4d6cbc2fe3fd823c9e82d847e75a28f2b318c26.jpeg/v1/x_0,y_0,w_567,h_378/riflessologiadorsalesito.webp" alt="Riflessologia Dorsale" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Diagnosi profonda</span>
+          <h3 class="tech-h3">Riflessologia Dorsale e Addominale</h3>
+          <p class="tech-p">Nata dagli studi di Neuroanatomia e Neurofisiologia. Particolarmente efficace nei casi di nevralgie idiopatiche, spasmofilie e dermatiti psicosomatiche. Con visione Antroposofica per casi complessi.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_a3f50e8e33457380f710803230825a2557c3ab69.jpeg/v1/x_0,y_0,w_567,h_449/dffade2d-1eb0-46b5-a0e2-713d7aea2ec5.webp" alt="Terapia Craniosacrale" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Tecnica dolce</span>
+          <h3 class="tech-h3">Terapia Craniosacrale</h3>
+          <p class="tech-p">Tecnica dolce e indolore che ripristina il movimento craniale respiratorio di Sutherland, riattivando i meccanismi di autoguarigione. Versione personalizzata ancora più piacevole ed efficace.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d2">
+        <img src="https://files.supersite.aruba.it/media/30362_061dc3b333472147e13ce5f14c5aee1529e8938b.jpeg/v1/x_0,y_0,w_567,h_670/2b977950-f422-45a3-884b-9b5e6801cfd3.webp" alt="Digitopressione" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Medicina Orientale</span>
+          <h3 class="tech-h3">Digitopressione Olistico-Antroposofica</h3>
+          <p class="tech-p">Pressione con i pollici su punti sparsi su tutto il corpo per il riequilibrio metabolico. Rielaborazione moderna della tecnica cinese e giapponese, arricchita dalla ricerca neurofisiologica A.I.R.R.C.S.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d3">
+        <img src="https://files.supersite.aruba.it/media/30362_38c8086bf0d61f58fa5f7bcdb12337fe1e03e1f1.jpeg/v1/x_0,y_0,w_567,h_493/78634caf-bd2b-4a07-a5bc-fe5673bb6c78.webp" alt="Micromassaggio ritmico podalico" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Arte del tocco</span>
+          <h3 class="tech-h3">Micromassaggio Ritmico Podalico Antroposofico</h3>
+          <p class="tech-p">Le mani scorrono dolcemente sulla pianta del piede a ritmo di musica. Un'esperienza sensitiva profonda che riaccorda corpo, spirito e mente secondo i crismi Antroposofici.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_f12fb9b204a913b45232bfb60685c5f4b7a47548.jpeg/v1/x_0,y_0,w_869,h_903/ead4cdeb-6458-4eef-af26-d3958cb7d217.webp" alt="Cromoterapia" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Metodo Nogier</span>
+          <h3 class="tech-h3">Cromoterapia e Fotopercezione Cutanea</h3>
+          <p class="tech-p">Terapia diagnostica basata sulle risposte vascolari (V.A.S.) all'illuminazione della pelle. Cura intolleranze, spasmofilie, patologie cicatriziali e disturbi psichici attraverso luce monocromatica pulsata.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d2">
+        <img src="https://files.supersite.aruba.it/media/30362_f935c66975bdaab8d932f269397d829d57d02838.jpeg/v1/x_0,y_0,w_550,h_366/fb62f736-2955-42bd-81d9-5c954db4c3be.webp" alt="Massaggio dei Meridiani" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Estremo Oriente</span>
+          <h3 class="tech-h3">Massaggio dei Meridiani</h3>
+          <p class="tech-p">Stimolazione manuale riflessa di immaginarie linee energetiche che attraversano il corpo. Genera benessere profondo e ha azione sugli organi e visceri nel loro percorso.</p>
+        </div>
+      </div>
+
+      <div class="tech-card reveal reveal-d3">
+        <img src="https://files.supersite.aruba.it/media/30362_8d150b9892e01c166f8ff695680b0c953e28b61d.jpeg/v1/x_0,y_0,w_567,h_697/72980523-c008-45ba-a227-9eb19762acb2.webp" alt="Allungamento globale" class="tech-img">
+        <div class="tech-body">
+          <span class="tech-badge">Posturale</span>
+          <h3 class="tech-h3">Allungamento Globale Decompensato</h3>
+          <p class="tech-p">Posizioni passive su lettino posturale ispirate a Mezieres, Alexander e Busquet. Considera anche l'emozionalità della persona per risultati rapidi e duraturi, con piacevole sensazione durante l'esecuzione.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ MATERNITÀ ═══ -->
+<div class="wave" style="background:var(--cream)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,0 C360,56 1080,0 1440,56 L1440,56 L0,56 Z" fill="var(--rose-lt)"/></svg>
+</div>
+
+<section id="maternita">
+  <div class="container">
+    <div class="mat-intro reveal">
+      <span class="mat-eyebrow">Specializzazione</span>
+      <h2 class="mat-h2">Percorsi per la<br><em>Maternità</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+      <p class="body-text">Trattamenti dolci e non invasivi pensati per accompagnare la donna in ogni fase: dalla gravidanza al post-parto, dal desiderio di maternità alla ripresa sportiva. Un approccio che unisce PNEI, Medicina Cinese e riflessologia integrata.</p>
+    </div>
+
+    <div class="mat-grid">
+
+      <div class="mat-card reveal reveal-d1">
+        <div class="mat-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+          </svg>
+        </div>
+        <span class="mat-badge">I Trimestre → Parto</span>
+        <h3 class="mat-h3">Prevenzione e Sollievo in Gestazione</h3>
+        <p class="mat-p">Stimolazioni riflesse (plantare, palmare, facciale, auricolare) e massaggi neuro-muscolari per il comfort materno in ogni trimestre:</p>
+        <ul style="margin-top:.6rem;padding-left:1.1rem;display:flex;flex-direction:column;gap:.35rem">
+          <li style="font-size:.83rem;color:var(--brown-mid)"><strong style="color:var(--forest)">Riequilibrio neuro-vegetativo:</strong> nausea gravidica, pesantezza gastrica, stipsi</li>
+          <li style="font-size:.83rem;color:var(--brown-mid)"><strong style="color:var(--forest)">Posturale e muscolare:</strong> lombalgie, sciatalgie riflesse, sovraccarico biomeccanico</li>
+          <li style="font-size:.83rem;color:var(--brown-mid)"><strong style="color:var(--forest)">Circolazione:</strong> drenaggio liquidi, gonfiore arti, ritmi del sonno, distensione emotiva</li>
+        </ul>
+      </div>
+
+      <div class="mat-card reveal reveal-d2">
+        <div class="mat-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <span class="mat-badge">Puerperio</span>
+        <h3 class="mat-h3">Rigenerazione nel Post-Parto</h3>
+        <p class="mat-p">Protocolli olistici per accompagnare la neomamma nella delicata fase del puerperio:</p>
+        <ul style="margin-top:.6rem;padding-left:1.1rem;display:flex;flex-direction:column;gap:.35rem">
+          <li style="font-size:.83rem;color:var(--brown-mid)"><strong style="color:var(--forest)">Sostegno all'allattamento:</strong> stimolazioni riflesse per favorire la montata lattea</li>
+          <li style="font-size:.83rem;color:var(--brown-mid)"><strong style="color:var(--forest)">Rilassamento strutturale:</strong> trattamento miofasciale, liberazione del diaframma</li>
+          <li style="font-size:.83rem;color:var(--brown-mid)"><strong style="color:var(--forest)">Baby blues:</strong> Fiori di Bach per stabilità emotiva e stanchezza profonda</li>
+        </ul>
+      </div>
+
+      <div class="mat-card reveal reveal-d1">
+        <div class="mat-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <span class="mat-badge">Fertilità · PMA</span>
+        <h3 class="mat-h3">Fertilità e Supporto Psicosomatico</h3>
+        <p class="mat-p">Protocollo esclusivo per coppie che cercano una gravidanza: rilassamento profondo, riduzione dello stress emotivo e organico, riequilibrio energetico per predisporre il corpo a una naturale procreazione.</p>
+        <p class="mat-sub">Supporto defaticante e rilassante anche per chi affronta percorsi di <strong>PMA (Procreazione Medicalmente Assistita)</strong>.</p>
+      </div>
+
+      <div class="mat-card reveal reveal-d2">
+        <div class="mat-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          </svg>
+        </div>
+        <span class="mat-badge">Sport · Qi Gong · Videochiamata</span>
+        <h3 class="mat-h3">Mamma Atleta e Qi Gong a Distanza</h3>
+        <p class="mat-p">Trattamenti personalizzati per donne sportive in gravidanza e in ripresa post-parto. Prevenzione dell'iperlassità legamentosa e ottimizzazione dell'efficienza motoria.</p>
+        <p class="mat-sub">Sessioni individuali di <strong>Ginnastica Posturale e Qi Gong</strong> combinate ad automassaggio riflesso, disponibili anche via videochiamata per chi non può raggiungere lo studio.</p>
+        <div class="mat-video-badge">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
+          Disponibile via videochiamata
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mat-bottom reveal">
+      <div class="mat-bottom-text">
+        <div class="mat-bottom-title">Un percorso pensato per te</div>
+        <div class="mat-bottom-sub">Il primo incontro è gratuito. Contattami via WhatsApp al <a href="https://wa.me/393884756132" target="_blank" rel="noopener" style="color:var(--gold);font-weight:700;text-decoration:none;white-space:nowrap">388.47.56.132</a> per raccontarmi la tua situazione — rispondo personalmente 365 giorni l'anno.</div>
+      </div>
+      <a href="#contatti" class="btn-primary">Prenota la prima consulenza</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ RSNC ═══ -->
+<section id="rsnc">
+  <div class="container">
+    <div class="rsnc-grid">
+      <div class="reveal">
+        <span class="rsnc-eyebrow">Innovazione scientifica</span>
+        <h2 class="rsnc-h2">La Tecnica<br><em>RSNC</em></h2>
+        <div style="width:44px;height:2px;background:linear-gradient(90deg,var(--gold),var(--gold-dk));margin-bottom:1.5rem"></div>
+        <p class="rsnc-p">La <strong style="color:white">Riflessologia del Sistema Nervoso Centrale</strong> è la tecnica originale sviluppata da Paolo Torri insieme allo staff multidisciplinare dell'A.I.R.R.C.S. dopo anni di ricerca e sperimentazione in campo Neurofisiologico e Clinico.</p>
+        <p class="rsnc-p">Diversamente dalla riflessologia tradizionale, la RSNC lavora sulle zone riflesse del sistema nervoso centrale producendo effetti sull'asse psico-neuro-endocrino-immunitario.</p>
+        <div class="check-list">
+          <div class="check-row">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--gold)" stroke-width="2" style="min-width:18px;margin-top:2px"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Approccio scientifico basato su neuroanatomia e neurofisiologia applicate</span>
+          </div>
+          <div class="check-row">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--gold)" stroke-width="2" style="min-width:18px;margin-top:2px"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>In casi complessi: stimolatori elettrici e laser per enfatizzare la potenza curativa</span>
+          </div>
+          <div class="check-row">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--gold)" stroke-width="2" style="min-width:18px;margin-top:2px"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Ottima per patologie dell'apparato digerente, nervoso e in tutti gli apparati</span>
+          </div>
+          <div class="check-row">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--gold)" stroke-width="2" style="min-width:18px;margin-top:2px"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>In costante ricerca e miglioramento presso l'A.I.R.R.C.S. dal 2001</span>
+          </div>
+        </div>
+      </div>
+      <div class="rsnc-img-grid reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_364d4b43163c05879aff5a7de5a191bfbcc6cbca.jpeg/v1/x_0,y_0,w_266,h_400/6f557f1e-05de-4e56-a42c-a76de7f3a4a9.webp" alt="Tecnica RSNC" class="rsnc-img tall">
+        <img src="https://files.supersite.aruba.it/media/30362_f4b42ada64163f679ed5517402a5bbf5e0045ac3.jpeg/v1/x_0,y_0,w_426,h_561/fb04beda-d95e-4399-bacb-2877bccb25fc.webp" alt="Tecnica olistica" class="rsnc-img">
+        <img src="https://files.supersite.aruba.it/media/30362_29103b765d9497b524362d2488870d463612dda2.jpeg/v1/x_0,y_0,w_266,h_402/c994e71a-581e-44cf-9322-17d0f4e37e6a.webp" alt="Trattamento" class="rsnc-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wave" style="background:linear-gradient(145deg,#091C14 0%,#1A3D30 55%,#091C14 100%)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,0 C360,56 1080,0 1440,56 L1440,56 L0,56 Z" fill="var(--warm)"/></svg>
+</div>
+
+
+<!-- ═══ IL TERAPEUTA ═══ -->
+<section id="terapeuta" style="background:var(--warm);padding:7rem 2rem">
+  <div class="container">
+    <div class="tera-grid">
+      <div class="reveal">
+        <img src="https://files.supersite.aruba.it/media/30362_4a95a88b0cf9a7b5f8958692ca6d41dbd9c539a9.jpeg/v1/x_0,y_0,w_567,h_851/4fb96b57-4a89-48fd-af38-f22c8f734196.webp"
+             alt="Paolo Torri — Olistic Studio" class="tera-img">
+        <img src="https://files.supersite.aruba.it/media/30362_0c3746b48b3f97cbcc848846dffd9fe2ed9d1a26.jpeg/v1/x_0,y_0,w_567,h_851/32dbaac9-30e1-4141-a55e-c858cad11b40.webp"
+             alt="Paolo Torri — trattamento" class="tera-img2">
+      </div>
+      <div class="reveal reveal-d1">
+        <span class="section-eyebrow">Il Terapeuta</span>
+        <div class="tera-name">Paolo Torri</div>
+        <div class="tera-role">Maestro Riflessologo · Massoterapeuta neuromuscolare<br>Presidente A.I.R.R.C.S. · Creatore della Tecnica RSNC</div>
+        <div class="gold-bar"></div>
+        <p class="body-text" style="margin-bottom:1rem">
+          Maestro Riflessologo con 30 anni di esperienza. Il mio approccio unisce la precisione analitica degli studi in <strong style="color:var(--forest)">Scienze Biologiche</strong> all'Università Statale di Milano con la visione globale della <strong style="color:var(--forest)">PNEI</strong> (Psico-Neuro-Endocrino-Immunologia), dell'omotossicologia e della Medicina Tradizionale Cinese. Porto nel lavoro anche la mia sensibilità di uomo e padre di due figli, accogliendo ogni persona con rispetto, delicatezza ed empatia.
+        </p>
+
+        <div class="studi-title">Studi e Diplomi</div>
+        <div class="studi-list">
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Studi in Scienze Biologiche</div><div class="studi-sub">Università degli Studi di Milano</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Diploma Nazionale di Massaggiatore Sportivo</div><div class="studi-sub">Specializzazioni in Massaggio Miofasciale, Neuro-muscolare e Meridiani Tendineo-Muscolari (MTC)</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Master in Riflessologia Integrata</div><div class="studi-sub">Plantare, palmare, auricolare, facciale, del colon, linguale e Linfatica di Chapman — C.I.R.F. · A.I.R.F. · A.I.R.R.C.S.</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Diplomato Fitoterapeuta</div><div class="studi-sub">"Dr. Edward Bach Centre" di Kusnacht, Svizzera</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Diplomato in Auricolomedicina e fotopercezione cutanea — Metodo Nogier</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Insegnante Abilitato di Ginnastica Posturale e Qi Gong</div><div class="studi-sub">Discipline orientate alla gestione dello stress e al benessere diaframmatico</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Studi su posturologia clinica applicata — Metodo Busquet</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Corso di Agopuntura Clinica Tradizionale e Moderna</div><div class="studi-sub">Prof. Emilio Minelli · Facoltà di Medicina, Università degli studi di Milano</div></div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div><div class="studi-text">Diplomato Cromoterapeuta e Digitopressore</div><div class="studi-sub">C.I.R.F. — Centro Italiano Riflessologia Fitzgerald</div></div></div>
+        </div>
+
+        <div class="studi-title">Esperienze di rilievo</div>
+        <div class="studi-list">
+          <div class="studi-item"><div class="studi-dot"></div><div class="studi-text">Massoterapeuta ufficiale Torneo Internazionale "Avvenire" di tennis (1999–2017) — il più importante torneo under 14 al mondo</div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div class="studi-text">Massoterapeuta ufficiale manifestazione internazionale di Basket "Mixtape Tour 2003"</div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div class="studi-text">Coordinatore Massoterapeuti Squadra Corse "Olistic Team" — prima squadra ciclistica Olistica in Europa</div></div>
+          <div class="studi-item"><div class="studi-dot"></div><div class="studi-text">Ideatore del progetto "Sport e Mente" in sperimentazione clinica e sportiva</div></div>
+        </div>
+
+        <div class="avail-box">
+          <div class="avail-text">
+            <strong>Disponibile gratuitamente</strong> per consulenze via mail o WhatsApp
+            <strong>365 giorni l'anno</strong> in un clima di cordiale disponibilità. <strong style="color:var(--sage)">SE SI STA MALE NON SI DISTURBA MAI!</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ RECENSIONI ═══ -->
+<section id="recensioni">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:1rem" class="reveal">
+      <span class="section-eyebrow">Recensioni Google</span>
+      <h2 class="section-h2" style="margin-top:.65rem">Cosa dicono i <em>pazienti</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+      <div style="display:flex;justify-content:center">
+        <div class="rec-badge">
+          <div class="rec-badge-stars">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="rec-badge-num">5,0</div>
+          <div class="rec-badge-label">su Google · 13 recensioni</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rec-grid reveal">
+
+      <div class="rec-card">
+        <div class="rec-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="rec-text">Sono davvero soddisfatta del percorso che sto facendo con Paolo… professionale, con grandi competenze, entra in empatia in poco tempo e ti permette di sentirti a tuo agio e in relax. L'ho già consigliato e lo continuerò a consigliare!</p>
+        <div class="rec-author">
+          <div class="rec-avatar">M</div>
+          <div><div class="rec-name">Marcella R.</div><div class="rec-meta">Local Guide · un anno fa</div></div>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <div class="rec-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="rec-text">Quando esci dallo studio ti rendi conto che Paolo riesce a farti fare pace con il tuo corpo. Professionalità al top. Esperienza da fare.</p>
+        <div class="rec-author">
+          <div class="rec-avatar">A</div>
+          <div><div class="rec-name">Antonella Onorati</div><div class="rec-meta">Local Guide · 3 anni fa</div></div>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <div class="rec-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="rec-text">Oltre che consigliarlo per essere riuscito a risolvere le mie problematiche, mi sono sentita accolta ed ascoltata. Un vero professionista che va oltre il rapporto medico-paziente!</p>
+        <div class="rec-author">
+          <div class="rec-avatar">A</div>
+          <div><div class="rec-name">Anna Borsetti</div><div class="rec-meta">3 anni fa</div></div>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <div class="rec-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="rec-text">5 stelle è il minimo giudizio che si possa dare. Paolo persona umana e professionale, ti farà sentire subito a tuo agio e con il suo bagaglio tecnico ti saprà risolvere i tuoi problemi. Sicuramente ve lo consiglio.</p>
+        <div class="rec-author">
+          <div class="rec-avatar">G</div>
+          <div><div class="rec-name">Gladius1975</div><div class="rec-meta">Local Guide · 4 anni fa</div></div>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <div class="rec-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="rec-text">Massima professionalità. Preparazione e dedizione. Ambiente estremamente accogliente, trattamento efficace e rilassante su musiche dedicate. Consiglio vivamente di provare... esperienza unica!</p>
+        <div class="rec-author">
+          <div class="rec-avatar">C</div>
+          <div><div class="rec-name">Chiara Longhin</div><div class="rec-meta">4 anni fa</div></div>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <div class="rec-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#F5B400"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="rec-text">Massima cordialità, massima competenza. Un vero professionista di un umanità fuori dal comune. Mi affido a lui da anni... scelta migliore non potessi fare nella vita. Consiglio vivamente.</p>
+        <div class="rec-author">
+          <div class="rec-avatar">L</div>
+          <div><div class="rec-name">Luca Marzio</div><div class="rec-meta">Local Guide · 3 anni fa</div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center">
+      <a href="https://www.google.com/maps/search/Olistic+Studio+Via+Plezzo+36+Milano/" target="_blank" rel="noopener" class="rec-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+        Leggi tutte le 13 recensioni su Google
+        <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<div class="wave" style="background:var(--warm)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,56 C480,0 960,56 1440,0 L1440,56 L0,56 Z" fill="var(--cream)"/></svg>
+</div>
+
+
+<!-- ═══ DOVE SIAMO ═══ -->
+<section id="dove" style="background:var(--cream);padding:7rem 2rem">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:4rem" class="reveal">
+      <span class="section-eyebrow">Dove Siamo</span>
+      <h2 class="section-h2" style="margin-top:.65rem">Lo Studio a <em>Milano</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+    </div>
+    <div class="dove-grid">
+      <div class="reveal">
+        <img src="https://files.supersite.aruba.it/media/30362_aa09cae1d100df0fd3d0e419d943e572c7b2d85c.jpeg/v1/x_1,y_0,w_567,h_367/panoramicastudiosito.webp"
+             alt="Studio Olistic — Milano" class="studio-img">
+        <img src="https://files.supersite.aruba.it/media/30362_d0c554e05cf3183944c5d4b0b9bf82f0b280dc29.jpeg/v1/x_0,y_0,w_567,h_421/secondapanoramicastudiosito.webp"
+             alt="Studio Olistic — interno" class="studio-img" style="margin-top:1rem">
+      </div>
+      <div class="reveal reveal-d1">
+        <span class="section-eyebrow">Zona Città Studi</span>
+        <h3 class="section-h2" style="font-size:1.75rem;margin-top:.5rem">Un ambiente rilassante<br><em>dove nulla è lasciato al caso</em></h3>
+        <div class="gold-bar"></div>
+        <p class="body-text" style="margin-bottom:2rem">Studio ben attrezzato per applicare tutte le tecniche nel miglior modo possibile, in situazione di massimo confort, dotato di strumentazione innovativa e in un clima di cordiale ascolto personale.</p>
+        <div class="come-items">
+          <div class="come-row">
+            <div class="come-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg></div>
+            <div><div class="come-label">Indirizzo</div><div class="come-val"><a href="https://maps.google.com/?q=Via+Plezzo+36+Milano+20100" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Via Plezzo 36 · Milano 20100</a></div></div>
+          </div>
+          <div class="come-row">
+            <div class="come-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path stroke-linecap="round" d="M8 4v4M16 4v4M2 10h20"/></svg></div>
+            <div><div class="come-label">Metro</div><div class="come-val">MM2 fermata Udine — 200 m</div></div>
+          </div>
+          <div class="come-row">
+            <div class="come-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m0 0l-7 7m7-7l7 7"/></svg></div>
+            <div><div class="come-label">Bus / Treno</div><div class="come-val">Bus 55 fermata L.go Gemito (50 m)<br>FS Stazione Lambrate (200 m)</div></div>
+          </div>
+          <div class="come-row">
+            <div class="come-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></div>
+            <div><div class="come-label">Auto</div><div class="come-val">Senza tasse di accesso · parcheggio facile</div></div>
+          </div>
+        </div>
+        <a href="https://maps.google.com/?q=Via+Plezzo+36+Milano+20100" target="_blank" rel="noopener"
+           style="display:flex;align-items:center;gap:1rem;margin-top:1.5rem;padding:1.1rem 1.4rem;border-radius:1rem;border:1.5px solid rgba(168,201,194,.35);background:rgba(46,107,92,.05);text-decoration:none;transition:background .2s,border-color .2s"
+           onmouseover="this.style.background='rgba(46,107,92,.1)';this.style.borderColor='rgba(46,107,92,.4)'"
+           onmouseout="this.style.background='rgba(46,107,92,.05)';this.style.borderColor='rgba(168,201,194,.35)'">
+          <div style="width:44px;height:44px;min-width:44px;border-radius:.8rem;background:var(--sage);display:flex;align-items:center;justify-content:center">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+          </div>
+          <div>
+            <div style="font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--forest)">Apri su Google Maps</div>
+            <div style="font-size:.85rem;color:var(--brown-mid);margin-top:.1rem">Via Plezzo 36 · Milano 20100</div>
+          </div>
+          <svg style="margin-left:auto" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="var(--sage-mid)" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+        <div class="gratuito-banner">
+          <div class="gratuito-title">Primo incontro gratuito</div>
+          <div class="gratuito-sub">La valutazione, la scheda personale e la diagnosi riflessa sono sempre gratuite e non vincolanti. Insieme analizzeremo le vostre problematiche e inizieremo il percorso per risolverle.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wave" style="background:var(--cream)">
+  <svg viewBox="0 0 1440 56" preserveAspectRatio="none" style="height:56px"><path d="M0,0 C360,56 1080,0 1440,56 L1440,56 L0,56 Z" fill="var(--warm)"/></svg>
+</div>
+
+
+<!-- ═══ CONTATTI ═══ -->
+<section id="contatti" style="background:var(--warm);padding:7rem 2rem">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:4rem" class="reveal">
+      <span class="section-eyebrow">Contatti</span>
+      <h2 class="section-h2" style="margin-top:.65rem">Scrivici o <em>prenota</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="contact-intro">
+          Il miglior modo per contattarmi è <strong style="color:var(--forest)">WhatsApp o SMS al <a href="https://wa.me/393884756132" target="_blank" rel="noopener" style="color:var(--forest);text-decoration:underline;text-underline-offset:3px">388.47.56.132</a></strong>, sempre attivo. Puoi anche inviare esami, referti o quanto ritieni utile via email. Rispondo personalmente al più presto.
+        </p>
+        <div class="ci-items">
+          <div class="ci">
+            <div class="ci-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+            <div><div class="ci-label">Telefono · WhatsApp · SMS</div><a href="tel:+393884756132" class="ci-val">388.47.56.132</a></div>
+          </div>
+          <div class="ci">
+            <div class="ci-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+            <div><div class="ci-label">Email terapeuta</div><a href="mailto:paolo.torri@olisticstudio.com" class="ci-val">paolo.torri@olisticstudio.com</a></div>
+          </div>
+          <div class="ci">
+            <div class="ci-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+            <div><div class="ci-label">Prenotazioni e info</div><a href="mailto:info@olisticstudio.com" class="ci-val">info@olisticstudio.com</a></div>
+          </div>
+          <div class="ci">
+            <div class="ci-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="var(--sage)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg></div>
+            <div><div class="ci-label">Studio</div><div class="ci-val">Via Plezzo 36 · Milano 20100<br><span style="font-size:.82rem;color:var(--brown-lt)">Zona Città Studi</span></div></div>
+          </div>
+        </div>
+        <div class="social-row">
+          <a href="https://www.facebook.com/paolo.torri.100/?locale=it_IT" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/paolotorririflessologo/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@paolotorrimaestroriflessol4385" target="_blank" rel="noopener" class="social-btn" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.97C5.12 20 12 20 12 20s6.88 0 8.59-.45a2.78 2.78 0 001.95-1.97A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+          </a>
+        </div>
+        <div style="margin-top:2rem;padding:1rem 1.25rem;border:1.5px solid rgba(168,201,194,.35);border-radius:1rem;background:rgba(92,158,143,.05)">
+          <div style="font-size:.65rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--sage-mid);margin-bottom:.3rem">Ricerca e Associazione</div>
+          <div style="font-family:'Lora',serif;font-size:.95rem;font-weight:600;color:var(--forest)">A.I.R.R.C.S.</div>
+          <div style="font-size:.77rem;color:var(--brown-lt);margin-top:.15rem;line-height:1.55">Associazione Italiana Ricerche Riflessogene e Chiropratiche Sportive<br>Info attività ricerca: <a href="http://www.olisticteam.org" style="color:var(--sage)">www.olisticteam.org</a></div>
+        </div>
+      </div>
+
+      <div class="form-card reveal reveal-d1">
+        <h3 class="form-title">Invia un messaggio</h3>
+        <div class="form-fields">
+          <div><label class="field-label">Nome e Cognome</label><input type="text" class="field-input" placeholder="Il tuo nome"></div>
+          <div><label class="field-label">Email</label><input type="email" class="field-input" placeholder="La tua email"></div>
+          <div><label class="field-label">Telefono (per risposta via WhatsApp)</label><input type="tel" class="field-input" placeholder="Opzionale"></div>
+          <div>
+            <label class="field-label">Tecnica di interesse</label>
+            <select class="field-input" style="cursor:pointer">
+              <option value="">Seleziona...</option>
+              <option>Riflessologia Plantare RSNC</option>
+              <option>Riflessologia Palmare</option>
+              <option>Auricoloterapia Olistica</option>
+              <option>Fitoterapia di Bach</option>
+              <option>Kinesio Taping Olistico</option>
+              <option>Terapia Craniosacrale</option>
+              <option>Cromoterapia / Fotopercezione</option>
+              <option>Riflessologia Dorsale</option>
+              <option>Micromassaggio Ritmico Podalico</option>
+              <option>Prima consultazione gratuita</option>
+              <option>─── Maternità ───</option>
+              <option>Trattamenti in Gravidanza</option>
+              <option>Rigenerazione Post-Parto</option>
+              <option>Fertilità / Supporto PMA</option>
+              <option>Mamma Atleta</option>
+              <option>Qi Gong / Videochiamata</option>
+              <option>Non lo so ancora</option>
+            </select>
+          </div>
+          <div><label class="field-label">Messaggio</label><textarea rows="7" class="field-input" style="resize:vertical" placeholder="Descrivi brevemente la tua situazione. Puoi allegare esami o referti via email."></textarea></div>
+          <button class="btn-submit">Invia messaggio</button>
+          <p style="font-size:.75rem;color:var(--brown-lt);text-align:center;margin-top:.25rem">Per urgenze: WhatsApp o SMS al 388.47.56.132</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <img src="https://files.supersite.aruba.it/media/30362_89e9cf02757b1821763ed5d03396e1cb98b9a728.jpeg/v1/x_0,y_0,w_343,h_221/019da121-57e7-4795-b8c9-42a55dbca36a.webp"
+           alt="Olistic Studio" class="footer-logo">
+      <div style="font-size:.75rem;color:rgba(255,255,255,.32);margin-top:.5rem">di Paolo &amp; Silvia Torri · Via Plezzo 36 · Milano</div>
+      <div style="font-size:.75rem;color:rgba(255,255,255,.32);margin-top:.25rem"><a href="tel:+393884756132" style="color:inherit;text-decoration:none">388.47.56.132</a> · <a href="mailto:paolo.torri@olisticstudio.com" style="color:inherit;text-decoration:none">paolo.torri@olisticstudio.com</a></div>
+      <div style="display:flex;gap:.5rem;margin-top:.9rem">
+        <a href="https://www.facebook.com/paolo.torri.100/?locale=it_IT" target="_blank" rel="noopener" class="social-btn-footer" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/paolotorririflessologo/" target="_blank" rel="noopener" class="social-btn-footer" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@paolotorrimaestroriflessol4385" target="_blank" rel="noopener" class="social-btn-footer" aria-label="YouTube">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.97C5.12 20 12 20 12 20s6.88 0 8.59-.45a2.78 2.78 0 001.95-1.97A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+        </a>
+      </div>
+    </div>
+    <div style="display:flex;gap:3.5rem;flex-wrap:wrap">
+      <div>
+        <div class="footer-col-label">Tecniche</div>
+        <div class="footer-links">
+          <a href="#tecniche" class="footer-link">Riflessologia RSNC</a>
+          <a href="#tecniche" class="footer-link">Auricoloterapia</a>
+          <a href="#tecniche" class="footer-link">Fitoterapia di Bach</a>
+          <a href="#tecniche" class="footer-link">Kinesio Taping</a>
+          <a href="#tecniche" class="footer-link">Craniosacrale</a>
+          <a href="#tecniche" class="footer-link">Cromoterapia</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-label">Studio</div>
+        <div class="footer-links">
+          <a href="#metodo"     class="footer-link">Il Metodo</a>
+          <a href="#maternita"  class="footer-link">Maternità</a>
+          <a href="#rsnc"       class="footer-link">Tecnica RSNC</a>
+          <a href="#terapeuta"  class="footer-link">Paolo Torri</a>
+          <a href="#dove"       class="footer-link">Dove Siamo</a>
+          <a href="#contatti"   class="footer-link">Contatti</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-label">Associazione</div>
+        <div class="footer-links">
+          <a href="http://www.olisticteam.org" class="footer-link" target="_blank">A.I.R.R.C.S.</a>
+          <a href="http://www.olisticteam.org" class="footer-link" target="_blank">Olistic Team</a>
+          <a href="mailto:p.torri@olisticteam.org" class="footer-link">p.torri@olisticteam.org</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Olistic Studio di Paolo &amp; Silvia Torri · Via Plezzo 36 · Milano 20100</span>
+    <span>Sito realizzato da <a href="https://www.massimodassano.it" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.35);text-decoration:underline;text-underline-offset:3px;" onmouseover="this.style.color='rgba(255,255,255,.7)'" onmouseout="this.style.color='rgba(255,255,255,.35)'">Massimo Dassano</a></span>
+    <span style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center">
+      <span>A.I.R.R.C.S. · Tecnica RSNC · Metodo Busquet · Fiori di Bach</span>
+      <span style="color:rgba(255,255,255,.12)">|</span>
+      <button onclick="openModal('modal-privacy')" style="background:none;border:none;color:rgba(255,255,255,.35);font-size:.72rem;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px" onmouseover="this.style.color='rgba(255,255,255,.7)'" onmouseout="this.style.color='rgba(255,255,255,.35)'">Privacy Policy</button>
+      <button onclick="openModal('modal-cookie')" style="background:none;border:none;color:rgba(255,255,255,.35);font-size:.72rem;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px" onmouseover="this.style.color='rgba(255,255,255,.7)'" onmouseout="this.style.color='rgba(255,255,255,.35)'">Cookie Policy</button>
+    </span>
+  </div>
+</footer>
+
+
+<!-- ═══ COOKIE BANNER ═══ -->
+<div id="cookie-banner">
+  <p class="cookie-text">
+    Questo sito utilizza <strong>Google Fonts</strong> e <strong>Google Maps</strong> per il corretto funzionamento. Non utilizziamo cookie di profilazione o tracciamento.
+    Leggi la <button onclick="openModal('modal-privacy')" style="background:none;border:none;color:var(--sage-lt);font-size:inherit;cursor:pointer;padding:0;text-decoration:underline">Privacy Policy</button>
+    e la <button onclick="openModal('modal-cookie')" style="background:none;border:none;color:var(--sage-lt);font-size:inherit;cursor:pointer;padding:0;text-decoration:underline">Cookie Policy</button>.
+  </p>
+  <div class="cookie-btns">
+    <button class="btn-reject" onclick="rejectCookies()">Solo necessari</button>
+    <button class="btn-accept" onclick="acceptCookies()">Accetta</button>
+  </div>
+</div>
+
+<!-- ═══ MODAL PRIVACY POLICY ═══ -->
+<div id="modal-privacy" class="modal-overlay" onclick="if(event.target===this)closeModal('modal-privacy')">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-privacy')" aria-label="Chiudi">×</button>
+    <h2>Informativa sulla Privacy</h2>
+    <p class="modal-date">Ultimo aggiornamento: giugno 2025 · ai sensi del Regolamento UE 2016/679 (GDPR)</p>
+
+    <h3>1. Titolare del trattamento</h3>
+    <p>Olistic Studio di Paolo &amp; Silvia Torri — Via Plezzo 36, 20100 Milano (MI)<br>
+    Email: <a href="mailto:paolo.torri@olisticstudio.com">paolo.torri@olisticstudio.com</a> · Tel: +39 388 47 56 132</p>
+
+    <h3>2. Dati raccolti</h3>
+    <p>Il sito raccoglie i dati che l'utente inserisce volontariamente nel <strong>modulo di contatto</strong>: nome, indirizzo email, eventuale messaggio. Non sono raccolti altri dati personali tramite il sito.</p>
+
+    <h3>3. Finalità e base giuridica</h3>
+    <ul>
+      <li><strong>Risposta alle richieste di contatto</strong> — base giuridica: consenso dell'interessato (Art. 6.1.a GDPR)</li>
+      <li><strong>Prenotazione appuntamenti</strong> — base giuridica: esecuzione di misure precontrattuali (Art. 6.1.b GDPR)</li>
+    </ul>
+
+    <h3>4. Modalità di trattamento e conservazione</h3>
+    <p>I dati sono trattati manualmente dal titolare. Non vengono ceduti a terzi. I messaggi di contatto vengono conservati per il tempo strettamente necessario a gestire la richiesta e comunque non oltre 24 mesi.</p>
+
+    <h3>5. Servizi di terze parti</h3>
+    <p>Il sito utilizza:</p>
+    <ul>
+      <li><strong>Google Fonts</strong> (Google LLC) — caricamento font tipografici. Il browser dell'utente può inviare l'indirizzo IP a Google. Privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li><strong>Google Maps</strong> (Google LLC) — mappa incorporata della sede. L'utilizzo della mappa comporta il trasferimento di dati tecnici a Google. Privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>6. Diritti dell'interessato</h3>
+    <p>Ai sensi degli Artt. 15-22 GDPR, l'utente ha diritto di: accedere ai propri dati, richiederne la rettifica o la cancellazione, opporsi al trattamento, richiedere la portabilità dei dati. Per esercitare i propri diritti scrivere a <a href="mailto:paolo.torri@olisticstudio.com">paolo.torri@olisticstudio.com</a>.</p>
+
+    <h3>7. Reclamo all'Autorità di controllo</h3>
+    <p>L'utente ha il diritto di proporre reclamo al Garante per la Protezione dei Dati Personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">garanteprivacy.it</a>).</p>
+  </div>
+</div>
+
+<!-- ═══ MODAL COOKIE POLICY ═══ -->
+<div id="modal-cookie" class="modal-overlay" onclick="if(event.target===this)closeModal('modal-cookie')">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-cookie')" aria-label="Chiudi">×</button>
+    <h2>Cookie Policy</h2>
+    <p class="modal-date">Ultimo aggiornamento: giugno 2025 · ai sensi del D.Lgs. 196/2003 e del Provvedimento Garante Privacy 8 maggio 2014</p>
+
+    <h3>1. Cosa sono i cookie</h3>
+    <p>I cookie sono piccoli file di testo che i siti web salvano nel browser dell'utente durante la navigazione, per ricordare preferenze e sessioni.</p>
+
+    <h3>2. Cookie utilizzati da questo sito</h3>
+    <p><strong>Cookie tecnici (necessari)</strong> — il sito salva in <code>localStorage</code> la preferenza di consenso ai cookie espressa dall'utente (chiave: <code>cookie_consent</code>). Non viene utilizzata per profilazione.</p>
+    <p style="margin-top:.75rem">Il sito <strong>non utilizza</strong> cookie di profilazione, cookie pubblicitari, né strumenti di analytics (Google Analytics, Meta Pixel o simili).</p>
+
+    <h3>3. Cookie di terze parti</h3>
+    <ul>
+      <li><strong>Google Fonts</strong> — il caricamento dei font avviene tramite richiesta al dominio <code>fonts.googleapis.com</code>. Google potrebbe impostare cookie tecnici. Per maggiori info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li><strong>Google Maps (iframe)</strong> — la mappa incorporata potrebbe impostare cookie tecnici di sessione da parte di Google. Per maggiori info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>4. Come gestire i cookie</h3>
+    <p>È possibile configurare il proprio browser per rifiutare i cookie o ricevere una notifica prima che vengano salvati. Le istruzioni variano a seconda del browser:</p>
+    <ul>
+      <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+      <li><a href="https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+      <li><a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+    </ul>
+    <p>Disabilitare i cookie tecnici potrebbe compromettere alcune funzionalità del sito.</p>
+
+    <h3>5. Contatti</h3>
+    <p>Per qualsiasi richiesta relativa ai cookie: <a href="mailto:paolo.torri@olisticstudio.com">paolo.torri@olisticstudio.com</a></p>
+  </div>
+</div>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 60), {passive:true});
+
+  const burger = document.getElementById('burger');
+  const mobMenu = document.getElementById('mobile-menu');
+  burger.addEventListener('click', () => mobMenu.classList.add('open'));
+  document.getElementById('mob-close').addEventListener('click', () => mobMenu.classList.remove('open'));
+  mobMenu.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', () => mobMenu.classList.remove('open')));
+
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (!t) return; e.preventDefault(); t.scrollIntoView({behavior:'smooth'});
+    });
+  });
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, {threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  document.querySelector('.btn-submit').addEventListener('click', () => {
+    alert('Grazie! Paolo risponderà al più presto. Per urgenze: WhatsApp 388.47.56.132');
+  });
+
+  // Cookie banner — localStorage wrapped in try/catch for Safari Private Browsing
+  function lsGet(k) { try { return localStorage.getItem(k); } catch(e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch(e) {} }
+  if (!lsGet('cookie_consent')) {
+    document.getElementById('cookie-banner').style.display = 'flex';
+  }
+  function acceptCookies() {
+    lsSet('cookie_consent', 'accepted');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+  function rejectCookies() {
+    lsSet('cookie_consent', 'rejected');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+
+  // Modali policy
+  function openModal(id) {
+    document.getElementById(id).style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      closeModal('modal-privacy');
+      closeModal('modal-cookie');
+    }
+  });
+
+  // ── Caroselli mobile (Tecniche, Materiali, Recensioni): autoplay + swipe con inerzia ──
+  function initSwipeCarousel(trackSelector, cardClass) {
+    const track = document.querySelector(trackSelector);
+    if (!track) return;
+    const originals = Array.prototype.slice.call(track.children).filter(el => el.classList.contains(cardClass));
+    if (!originals.length) return;
+
+    // Clona il set di card e lo accoda: permette un loop infinito senza cuciture visibili
+    originals.forEach(card => {
+      const clone = card.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true');
+      track.appendChild(clone);
+    });
+    const cards = Array.prototype.slice.call(track.children).filter(el => el.classList.contains(cardClass));
+
+    const mql = window.matchMedia('(max-width:540px)');
+    const DRIFT_SPEED = 0.04; // px/ms — deriva lenta e costante
+    let resumeTimer = null, raf = null, rafAuto = null, lastFrameT = null, interacting = false;
+
+    function loopWidth() {
+      return cards[originals.length] ? cards[originals.length].offsetLeft - cards[0].offsetLeft : track.scrollWidth / 2;
+    }
+    function wrapIfNeeded() {
+      const lw = loopWidth();
+      if (lw <= 0) return;
+      if (track.scrollLeft >= lw) track.scrollLeft -= lw;
+      else if (track.scrollLeft < 0) track.scrollLeft += lw;
+    }
+    function nearestIndex() {
+      const pos = track.scrollLeft;
+      let best = 0, bestDist = Infinity;
+      cards.forEach((card, i) => {
+        const d = Math.abs(card.offsetLeft - pos);
+        if (d < bestDist) { bestDist = d; best = i; }
+      });
+      return best;
+    }
+
+    // Deriva automatica continua in avanti, in loop infinito, si ferma al primo tocco
+    function stopAuto() {
+      if (rafAuto) cancelAnimationFrame(rafAuto);
+      rafAuto = null; lastFrameT = null;
+    }
+    function autoStep(t) {
+      if (interacting) { rafAuto = null; return; }
+      if (lastFrameT === null) lastFrameT = t;
+      const dt = t - lastFrameT;
+      lastFrameT = t;
+      track.scrollLeft += DRIFT_SPEED * dt;
+      wrapIfNeeded();
+      rafAuto = requestAnimationFrame(autoStep);
+    }
+    function startAuto() {
+      stopAuto();
+      if (!mql.matches) return;
+      track.style.scrollSnapType = 'none';
+      rafAuto = requestAnimationFrame(autoStep);
+    }
+    function scheduleResume() {
+      clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(startAuto, 2000);
+    }
+    function stopMomentum() { if (raf) cancelAnimationFrame(raf); raf = null; }
+
+    // Drag manuale: più veloce è lo swipe, più il carosello scorre prima di fermarsi
+    let dragging = false, lockDir = null, lastX = 0, lastY = 0, lastT = 0, velocity = 0;
+
+    track.addEventListener('touchstart', e => {
+      dragging = true; lockDir = null; interacting = true;
+      stopAuto(); clearTimeout(resumeTimer); stopMomentum();
+      const t = e.touches[0];
+      lastX = t.clientX; lastY = t.clientY; lastT = Date.now(); velocity = 0;
+    }, { passive: true });
+
+    track.addEventListener('touchmove', e => {
+      if (!dragging) return;
+      const t = e.touches[0];
+      const dx = t.clientX - lastX, dy = t.clientY - lastY;
+      if (lockDir === null) lockDir = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y';
+      if (lockDir === 'y') return;
+      e.preventDefault();
+      const now = Date.now(), dt = Math.max(now - lastT, 1);
+      velocity = dx / dt;
+      track.scrollLeft -= dx;
+      wrapIfNeeded();
+      lastX = t.clientX; lastT = now;
+    }, { passive: false });
+
+    track.addEventListener('touchend', () => {
+      dragging = false;
+      if (lockDir !== 'x') { interacting = false; scheduleResume(); return; }
+      track.style.scrollSnapType = 'none';
+      (function glide() {
+        velocity *= 0.94;
+        track.scrollLeft -= velocity * 16;
+        wrapIfNeeded();
+        if (Math.abs(velocity) > 0.02) {
+          raf = requestAnimationFrame(glide);
+        } else {
+          track.style.scrollSnapType = '';
+          const nearest = cards[nearestIndex()];
+          track.scrollTo({ left: nearest.offsetLeft, behavior: 'smooth' });
+          interacting = false;
+          scheduleResume();
+        }
+      })();
+    });
+
+    mql.addEventListener('change', () => { mql.matches ? startAuto() : stopAuto(); });
+    startAuto();
+  }
+
+  initSwipeCarousel('.tech-grid', 'tech-card');
+  initSwipeCarousel('.mat-grid', 'mat-card');
+  initSwipeCarousel('.rec-grid', 'rec-card');
+</script>
+</body>
+</html>
