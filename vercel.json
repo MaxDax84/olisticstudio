@@ -1,5 +1,17 @@
 {
   "version": 2,
+  "redirects": [
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/contattaci", "destination": "/#contatti", "permanent": true },
+    { "source": "/dove-siamo", "destination": "/#dove", "permanent": true },
+    { "source": "/il-terapeuta", "destination": "/#terapeuta", "permanent": true },
+    { "source": "/le-tecniche1", "destination": "/#tecniche", "permanent": true },
+    { "source": "/i-trattamenti1-index", "destination": "/#tecniche", "permanent": true },
+    { "source": "/i-trattamenti1-trattamenti-per-gli-atleti", "destination": "/#tecniche", "permanent": true },
+    { "source": "/i-trattamenti1-trattamenti-per-la-bellezza", "destination": "/#tecniche", "permanent": true },
+    { "source": "/i-trattamenti1-trattamenti-per-la-salute", "destination": "/#tecniche", "permanent": true },
+    { "source": "/partner", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/((?!robots.txt|sitemap.xml).*)", "destination": "/index.html" }
   ],
