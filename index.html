@@ -213,6 +213,24 @@
     .tech-h3 { font-family:'Lora',serif; font-size:1.15rem; font-weight:600; color:var(--forest); margin-bottom:.6rem; line-height:1.3; }
     .tech-p { font-size:.83rem; color:var(--brown-mid); line-height:1.75; }
 
+    /* ── PERCORSI DI TRATTAMENTO ── */
+    #percorsi { background:var(--warm); padding:7rem 2rem; }
+    .percorsi-intro { max-width:700px; margin:0 auto 4rem; text-align:center; }
+    .percorsi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.75rem; }
+    .percorso-card {
+      background:white; border-radius:1.25rem; overflow:hidden;
+      box-shadow:0 4px 20px rgba(26,61,48,.07);
+      border:1.5px solid rgba(168,201,194,.2);
+      transition:transform .25s, box-shadow .25s, border-color .25s;
+    }
+    .percorso-card:hover { transform:translateY(-4px); box-shadow:0 12px 36px rgba(26,61,48,.12); border-color:rgba(201,162,85,.35); }
+    .percorso-img { width:100%; height:170px; object-fit:cover; }
+    .percorso-body { padding:1.5rem; }
+    .percorso-badge { display:inline-block; font-size:.62rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--rose); margin-bottom:.5rem; }
+    .percorso-h3 { font-family:'Lora',serif; font-size:1.15rem; font-weight:600; color:var(--forest); margin-bottom:.7rem; line-height:1.3; }
+    .percorso-p { font-size:.85rem; color:var(--brown-mid); line-height:1.78; }
+    @media (max-width:1024px) { .percorsi-grid { grid-template-columns:1fr; gap:2rem; } }
+
     /* ── COLLABORAZIONI / PARTNER ── */
     #partner { background:var(--cream); padding:6rem 2rem; }
     .partner-intro { max-width:700px; margin:0 auto 3.5rem; text-align:center; }
@@ -770,6 +788,44 @@
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PERCORSI DI TRATTAMENTO ═══ -->
+<section id="percorsi">
+  <div class="container">
+    <div class="percorsi-intro reveal">
+      <span class="section-eyebrow">Percorsi di Trattamento</span>
+      <h2 class="section-h2">Le tecniche unite in un <em>percorso su misura</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+      <p class="body-text">Ogni tecnica trova il suo significato pieno quando entra a far parte di un percorso pensato per il tuo obiettivo specifico.</p>
+    </div>
+    <div class="percorsi-grid">
+      <div class="percorso-card reveal reveal-d1">
+        <img src="https://files.supersite.aruba.it/media/30362_54c3ed93f334e7a8c8cee048dbfdf220be1c1395.jpeg/v1/x_0,y_0,w_567,h_319/6d854a3b-ece5-4987-9156-eed60bfb857b.webp" alt="Trattamento per la Salute" class="percorso-img">
+        <div class="percorso-body">
+          <span class="percorso-badge">Seduta tipo</span>
+          <h3 class="percorso-h3">Trattamento per la Salute</h3>
+          <p class="percorso-p">Il percorso inizia sempre con un colloquio approfondito e un'auscultazione statica e dinamica, per comprendere il corpo oltre alla problematica. Si parte dalla riflessologia plantare, che "ricorda al corpo" come agire correttamente, per proseguire con il Massaggio Emozionale — un massaggio podalico a ritmo di musica ideato da Paolo Torri per sciogliere le tensioni nervose profonde. Si passa poi al lavoro sui riflessi viscerali e organici, con essenze fitoterapiche di Bach al posto degli unguenti tradizionali.</p>
+        </div>
+      </div>
+      <div class="percorso-card reveal reveal-d2">
+        <img src="https://files.supersite.aruba.it/media/30362_88c6a9860a114e47b911545b448457133a3372a2.jpeg/v1/x_0,y_1,w_426,h_638/59f6732b-7c59-42c4-904e-d8acef9f2f7c.webp" alt="Trattamenti per la Bellezza" class="percorso-img">
+        <div class="percorso-body">
+          <span class="percorso-badge">Protocollo naturale</span>
+          <h3 class="percorso-h3">Trattamenti per la Bellezza</h3>
+          <p class="percorso-p">Piacersi è importante: genera benessere e salute. Insieme a un team di ricerca composto da psicologhe e biologhe, è stato elaborato un protocollo naturale contro gli inestetismi cutanei, che agisce sia sulla causa che sugli effetti dopo un'attenta valutazione condivisa, per bloccare la recidiva del processo. Un percorso piacevole, non invasivo.</p>
+        </div>
+      </div>
+      <div class="percorso-card reveal reveal-d3">
+        <img src="https://files.supersite.aruba.it/media/30362_8d150b9892e01c166f8ff695680b0c953e28b61d.jpeg/v1/x_0,y_0,w_567,h_697/72980523-c008-45ba-a227-9eb19762acb2.webp" alt="Trattamenti per gli Atleti" class="percorso-img">
+        <div class="percorso-body">
+          <span class="percorso-badge">Recupero e prevenzione</span>
+          <h3 class="percorso-h3">Trattamenti per gli Atleti</h3>
+          <p class="percorso-p">Chi pratica sport ad alto livello ha esigenze specifiche: prevenire gli infortuni, accelerare il recupero muscolare, mantenere l'equilibrio posturale sotto sforzo. Il Kinesio Taping Globale-Olistico (metodo Busquet) agisce sull'intera catena cinetica, non sul singolo muscolo, mentre l'Allungamento Globale Decompensato ripristina l'elasticità e previene le compensazioni posturali tipiche dello sforzo ripetuto.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
