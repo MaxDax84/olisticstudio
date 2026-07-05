@@ -213,6 +213,23 @@
     .tech-h3 { font-family:'Lora',serif; font-size:1.15rem; font-weight:600; color:var(--forest); margin-bottom:.6rem; line-height:1.3; }
     .tech-p { font-size:.83rem; color:var(--brown-mid); line-height:1.75; }
 
+    /* ── COLLABORAZIONI / PARTNER ── */
+    #partner { background:var(--cream); padding:6rem 2rem; }
+    .partner-intro { max-width:700px; margin:0 auto 3.5rem; text-align:center; }
+    .partner-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; max-width:1100px; margin:0 auto; }
+    .partner-card {
+      background:white; border-radius:1.25rem; padding:1.75rem 1.25rem;
+      display:flex; flex-direction:column; align-items:center; text-align:center; gap:.9rem;
+      border:1.5px solid rgba(26,61,48,.08); box-shadow:0 4px 20px rgba(26,61,48,.06);
+      transition:transform .25s, box-shadow .25s, border-color .25s;
+      text-decoration:none;
+    }
+    .partner-card:hover { transform:translateY(-4px); box-shadow:0 12px 32px rgba(26,61,48,.12); border-color:rgba(201,162,85,.35); }
+    .partner-logo { width:100%; max-width:110px; height:80px; object-fit:contain; }
+    .partner-name { font-family:'Lora',serif; font-size:.92rem; font-weight:600; color:var(--forest); line-height:1.3; }
+    .partner-role { font-size:.72rem; color:var(--brown-lt); line-height:1.4; }
+    @media (max-width:768px) { .partner-grid { grid-template-columns:1fr 1fr; } }
+
     /* ── RSNC DARK ── */
     #rsnc {
       background:linear-gradient(145deg,#091C14 0%,#1A3D30 55%,#091C14 100%);
@@ -1232,6 +1249,38 @@
           <p style="font-size:.75rem;color:var(--brown-lt);text-align:center;margin-top:.25rem">Per urgenze: WhatsApp o SMS al 388.47.56.132</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COLLABORAZIONI ═══ -->
+<section id="partner">
+  <div class="container">
+    <div class="partner-intro reveal">
+      <span class="section-eyebrow">Collaborazioni</span>
+      <h2 class="section-h2">Ho sempre pensato che la collaborazione reciproca<br><em>stimoli e arricchisca</em></h2>
+      <div class="gold-bar gold-bar-c"></div>
+      <p class="body-text">Ecco perché collaboro con piacere con:</p>
+    </div>
+    <div class="partner-grid">
+      <div class="partner-card reveal reveal-d1">
+        <img src="images/partner/maternita360.webp" alt="Maternità 360" class="partner-logo">
+        <span class="partner-name">Maternità 360</span>
+      </div>
+      <div class="partner-card reveal reveal-d2">
+        <img src="images/partner/silvia-torri.webp" alt="Dr.ssa Silvia Torri - Psicologa Olistica" class="partner-logo">
+        <span class="partner-name">Dr.ssa Silvia Torri</span>
+        <span class="partner-role">Psicologa Olistica</span>
+      </div>
+      <div class="partner-card reveal reveal-d3">
+        <img src="images/partner/olistic-team.webp" alt="Olistic Team - A.I.R.R.C.S." class="partner-logo">
+        <span class="partner-name">Olistic Team</span>
+        <span class="partner-role">A.I.R.R.C.S.</span>
+      </div>
+      <a href="https://sostegnoallamaternita.com" target="_blank" rel="noopener noreferrer" class="partner-card reveal reveal-d1">
+        <img src="images/partner/sostegno-maternita.png" alt="Sostegno Alla Maternità" class="partner-logo">
+        <span class="partner-name">Sostegno Alla Maternità</span>
+      </a>
     </div>
   </div>
 </section>
