@@ -1,6 +1,12 @@
 {
   "version": 2,
   "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "olisticstudio.com" }],
+      "destination": "https://www.olisticstudio.com/:path*",
+      "permanent": true
+    },
     { "source": "/home", "destination": "/", "permanent": true },
     { "source": "/contattaci", "destination": "/#contatti", "permanent": true },
     { "source": "/dove-siamo", "destination": "/#dove", "permanent": true },
