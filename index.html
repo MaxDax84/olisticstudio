@@ -1501,7 +1501,7 @@
     <h3>3. Cookie di terze parti</h3>
     <ul>
       <li><strong>Google Fonts</strong> — il caricamento dei font avviene tramite richiesta al dominio <code>fonts.googleapis.com</code>. Google potrebbe impostare cookie tecnici. Per maggiori info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
-      <li><strong>Google Maps (iframe)</strong> — la mappa incorporata potrebbe impostare cookie tecnici di sessione da parte di Google. Per maggiori info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li><strong>Google Maps</strong> — il sito non incorpora una mappa nella pagina, ma include link che aprono Google Maps in una nuova scheda. Nessun cookie di Google viene impostato finché non si clicca su questi link e si esce dal sito. Per maggiori info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
     </ul>
 
     <h3>4. Come gestire i cookie</h3>
@@ -1512,6 +1512,8 @@
       <li><a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
     </ul>
     <p>Disabilitare i cookie tecnici potrebbe compromettere alcune funzionalità del sito.</p>
+    <p style="margin-top:.75rem">Puoi anche rivedere in qualsiasi momento la scelta fatta su questo sito:</p>
+    <button class="btn-accept" style="margin-top:.5rem" onclick="reviewCookiePreferences()">Rivedi le preferenze cookie</button>
 
     <h3>5. Contatti</h3>
     <p>Per qualsiasi richiesta relativa ai cookie: <a href="mailto:paolo.torri@olisticstudio.com">paolo.torri@olisticstudio.com</a></p>
@@ -1553,6 +1555,11 @@
   function rejectCookies() {
     lsSet('cookie_consent', 'rejected');
     document.getElementById('cookie-banner').style.display = 'none';
+  }
+  function reviewCookiePreferences() {
+    try { localStorage.removeItem('cookie_consent'); } catch(e) {}
+    closeModal('modal-cookie');
+    document.getElementById('cookie-banner').style.display = 'flex';
   }
 
   // Modali policy
