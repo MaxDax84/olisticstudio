@@ -391,6 +391,10 @@
     .modal-box p, .modal-box li { font-size:.88rem; color:var(--brown-mid); line-height:1.7; }
     .modal-box ul { padding-left:1.2rem; margin:.3rem 0; }
     .modal-box a { color:var(--sage); }
+    .pref-cat { border:1px solid rgba(74,93,58,.15); border-radius:1rem; padding:1rem 1.2rem; margin:1.25rem 0; }
+    .pref-cat-head { display:flex; align-items:center; justify-content:space-between; font-weight:600; font-size:.9rem; color:var(--forest); margin-bottom:.35rem; }
+    .pref-cat-locked { font-size:.68rem; text-transform:uppercase; letter-spacing:.05em; color:var(--brown-lt); background:var(--cream-dk,rgba(74,93,58,.08)); padding:.2rem .6rem; border-radius:1rem; }
+    .pref-actions { display:flex; gap:.7rem; flex-wrap:wrap; margin-top:1.5rem; }
 
     /* ── RESPONSIVE ── */
     /* ── MATERNITÀ ── */
@@ -1520,6 +1524,30 @@
   </div>
 </div>
 
+<div id="modal-preferences" class="modal-overlay" onclick="if(event.target===this)closeModal('modal-preferences')">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('modal-preferences')" aria-label="Chiudi">×</button>
+    <h2>Preferenze Cookie</h2>
+    <p class="modal-date">La tua scelta attuale su questo sito</p>
+
+    <p>Questo sito non utilizza cookie di profilazione, pubblicitari o di analytics: l'unica categoria presente è quella dei cookie tecnici, indispensabili al funzionamento del sito stesso.</p>
+
+    <div class="pref-cat">
+      <div class="pref-cat-head">
+        <span>Cookie tecnici</span>
+        <span class="pref-cat-locked">Sempre attivi</span>
+      </div>
+      <p style="margin:0">Necessari per ricordare la tua scelta e per il corretto funzionamento delle pagine. Non possono essere disattivati.</p>
+    </div>
+
+    <p style="margin-top:1rem">Puoi comunque confermare o revocare il consenso complessivo espresso in precedenza:</p>
+    <div class="pref-actions">
+      <button class="btn-reject" style="color:var(--brown-mid);border-color:rgba(74,93,58,.25)" onclick="rejectCookies(); closeModal('modal-preferences');">Solo necessari</button>
+      <button class="btn-accept" onclick="acceptCookies(); closeModal('modal-preferences');">Accetta tutti</button>
+    </div>
+  </div>
+</div>
+
 <script>
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 60), {passive:true});
@@ -1557,9 +1585,8 @@
     document.getElementById('cookie-banner').style.display = 'none';
   }
   function reviewCookiePreferences() {
-    try { localStorage.removeItem('cookie_consent'); } catch(e) {}
     closeModal('modal-cookie');
-    document.getElementById('cookie-banner').style.display = 'flex';
+    openModal('modal-preferences');
   }
 
   // Modali policy
@@ -1575,6 +1602,7 @@
     if (e.key === 'Escape') {
       closeModal('modal-privacy');
       closeModal('modal-cookie');
+      closeModal('modal-preferences');
     }
   });
 
