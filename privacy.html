@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Olistic Studio</title>
+  <meta name="description" content="Informativa sul trattamento dei dati personali del sito olisticstudio.com, Studio massoterapico e riflessogeno di Paolo Torri a Milano.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Paolo Torri – Olistic Studio">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="canonical" href="https://www.olisticstudio.com/privacy.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.olisticstudio.com/privacy.html">
+  <meta property="og:title" content="Privacy Policy | Olistic Studio">
+  <meta property="og:description" content="Informativa sul trattamento dei dati personali del sito olisticstudio.com.">
+  <meta property="og:image" content="https://www.olisticstudio.com/images/homepage/og-image.jpg">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="Olistic Studio">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family:'Raleway',sans-serif; background:#F7F2EA; color:#2A1E14; overflow-x:hidden; }
+
+    :root {
+      --forest:    #1A3D30;
+      --forest-dk: #0E2820;
+      --sage:      #2E6B5C;
+      --sage-mid:  #5C9E8F;
+      --sage-lt:   #A8C9C2;
+      --cream:     #F7F2EA;
+      --warm:      #EDE4D3;
+      --gold:      #C9A255;
+      --gold-dk:   #8B6511;
+      --brown:     #2A1E14;
+      --brown-mid: #5C4E3D;
+      --brown-lt:  #7A6A59;
+    }
+
+    /* ── Navbar ── */
+    #navbar { position:fixed; top:0; left:0; right:0; z-index:100; padding:.75rem 2rem; background:rgba(247,242,234,0.97); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); box-shadow:0 1px 24px rgba(26,61,48,.09); }
+    .nav-inner { max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; }
+    .logo-link { display:inline-block; }
+    .logo-img { height:44px; width:auto; object-fit:contain; display:block; }
+    .nav-links { display:flex; gap:1.8rem; align-items:center; }
+    .nav-link { font-size:.75rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; text-decoration:none; color:var(--brown-mid); transition:color .2s; }
+    .nav-link:hover { color:var(--gold); }
+    .nav-cta { font-size:.72rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; text-decoration:none; color:var(--forest); background:var(--gold); padding:.5rem 1.3rem; border-radius:2rem; transition:background .2s, transform .15s; }
+    .nav-cta:hover { background:#E8C070; transform:translateY(-1px); }
+    .burger { display:none; background:none; border:none; cursor:pointer; padding:4px; }
+    .burger-line { display:block; width:24px; height:2px; background:var(--brown); margin:5px 0; }
+
+    #mobile-menu { display:none; position:fixed; inset:0; z-index:200; background:var(--forest-dk); flex-direction:column; align-items:center; justify-content:center; gap:1.8rem; }
+    #mobile-menu.open { display:flex; }
+    .mob-link { font-family:'Lora',serif; font-size:1.6rem; font-weight:600; color:white; text-decoration:none; transition:color .2s; }
+    .mob-link:hover { color:var(--gold); }
+    .mob-close { position:absolute; top:1.5rem; right:1.5rem; background:none; border:none; cursor:pointer; color:white; }
+
+    .container { max-width:1200px; margin:0 auto; padding:0 2rem; }
+    .gold-bar { width:44px; height:2px; background:linear-gradient(90deg,var(--gold),var(--gold-dk)); margin:.75rem 0 1.5rem; }
+
+    /* ── PAGE HERO ── */
+    #page-hero { background:var(--cream); padding:8.5rem 2rem 3rem; }
+    .breadcrumb { font-size:.78rem; color:var(--brown-lt); margin-bottom:1.4rem; }
+    .breadcrumb a { color:var(--sage); text-decoration:none; }
+    .breadcrumb a:hover { text-decoration:underline; }
+    .back-link { display:flex; width:fit-content; align-items:center; gap:.4rem; font-size:.82rem; font-weight:600; color:var(--sage); text-decoration:none; margin-bottom:1.6rem; transition:color .2s; }
+    .back-link:hover { color:var(--gold-dk); }
+    .page-eyebrow { font-size:.7rem; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:var(--sage-mid); }
+    .page-h1 { font-family:'Lora',serif; font-size:clamp(2rem,4vw,3rem); font-weight:600; color:var(--forest); line-height:1.15; margin:.6rem 0 1.2rem; }
+    .page-lead { font-size:1.02rem; color:var(--brown-mid); line-height:1.85; max-width:660px; }
+    .page-date { font-size:.78rem; color:var(--brown-lt); margin-top:1rem; }
+
+    /* ── LEGAL ── */
+    #article { background:var(--warm); padding:4.5rem 2rem 5rem; }
+    .legal { max-width:760px; margin:0 auto; }
+    .legal h2 { font-family:'Lora',serif; font-size:1.3rem; font-weight:600; color:var(--forest); margin:2.2rem 0 .8rem; }
+    .legal h2:first-child { margin-top:0; }
+    .legal p, .legal li { font-size:.95rem; color:var(--brown-mid); line-height:1.85; }
+    .legal p { margin-bottom:1rem; }
+    .legal ul { padding-left:1.3rem; margin:0 0 1rem; }
+    .legal li { margin-bottom:.5rem; }
+    .legal a { color:var(--sage); }
+    .legal a:hover { color:var(--gold-dk); }
+    .legal code { font-family:monospace; font-size:.88em; background:rgba(26,61,48,.07); padding:.1em .35em; border-radius:.3em; }
+    .legal .note { background:white; border-left:3px solid var(--gold); border-radius:.75rem; padding:1.2rem 1.5rem; margin:1.5rem 0; font-size:.9rem; }
+    .legal .note strong { color:var(--forest); }
+
+    /* ── FOOTER ── */
+    footer { background:var(--forest-dk); padding:3.5rem 2rem 2rem; }
+    .footer-inner { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:2.5rem; margin-bottom:2rem; }
+    .footer-logo { height:48px; border-radius:.5rem; background:rgba(247,242,234,.1); padding:.25rem .5rem; }
+    .footer-col-label { font-size:.63rem; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--sage-lt); margin-bottom:.75rem; }
+    .footer-links { display:flex; flex-direction:column; gap:.35rem; }
+    .footer-link { font-size:.82rem; color:rgba(255,255,255,.45); text-decoration:none; transition:color .2s; }
+    .footer-link:hover { color:var(--gold); }
+    .footer-bottom { border-top:1px solid rgba(255,255,255,.07); padding-top:1.25rem; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; text-align:center; gap:1rem; max-width:1200px; margin:0 auto; font-size:.72rem; color:rgba(255,255,255,.25); }
+    .footer-legal { color:rgba(255,255,255,.35); font-size:.72rem; text-decoration:underline; text-underline-offset:3px; }
+    .footer-legal:hover { color:rgba(255,255,255,.7); }
+
+    /* ── COOKIE BANNER ── */
+    #cookie-banner { display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:var(--forest-dk); border-top:1px solid rgba(168,201,194,.2); padding:1rem 2rem; align-items:center; justify-content:space-between; gap:1.5rem; flex-wrap:wrap; }
+    .cookie-text { font-size:.82rem; color:rgba(255,255,255,.7); line-height:1.6; max-width:700px; }
+    .cookie-text a { color:var(--sage-lt); }
+    .cookie-btns { display:flex; gap:.6rem; flex-shrink:0; }
+    .btn-accept { background:var(--sage); color:#fff; border:none; padding:.55rem 1.2rem; border-radius:2rem; font-size:.8rem; font-weight:600; cursor:pointer; transition:background .2s; }
+    .btn-accept:hover { background:var(--forest); }
+
+    @media (max-width:1024px) {
+      .nav-links, .nav-cta { display:none; }
+      .burger { display:block; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo-link">
+      <img src="images/logo-olistic-studio.webp" alt="Olistic Studio" class="logo-img">
+    </a>
+    <div class="nav-links">
+      <a href="index.html#metodo" class="nav-link">Il Metodo</a>
+      <a href="index.html#tecniche" class="nav-link">Le Tecniche</a>
+      <a href="index.html#maternita" class="nav-link">Maternità</a>
+      <a href="index.html#terapeuta" class="nav-link">Il Terapeuta</a>
+      <a href="index.html#dove" class="nav-link">Dove Siamo</a>
+      <a href="index.html#contatti" class="nav-link">Contatti</a>
+      <a href="index.html#contatti" class="nav-cta">Scrivimi o prenota</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span class="burger-line"></span><span class="burger-line"></span><span class="burger-line"></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mobile-menu">
+  <button class="mob-close" id="mob-close" aria-label="Chiudi">
+    <svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+  </button>
+  <a href="index.html#metodo" class="mob-link">Il Metodo</a>
+  <a href="index.html#tecniche" class="mob-link">Le Tecniche</a>
+  <a href="index.html#maternita" class="mob-link">Maternità</a>
+  <a href="index.html#terapeuta" class="mob-link">Il Terapeuta</a>
+  <a href="index.html#dove" class="mob-link">Dove Siamo</a>
+  <a href="index.html#contatti" class="mob-link" style="color:var(--gold)">Scrivimi o prenota →</a>
+</div>
+
+<!-- ═══ PAGE HERO ═══ -->
+<section id="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> · Privacy Policy
+    </div>
+    <a href="index.html" class="back-link">← Torna alla home</a>
+    <span class="page-eyebrow">Informazioni legali</span>
+    <h1 class="page-h1">Informativa sulla Privacy</h1>
+    <div class="gold-bar"></div>
+    <p class="page-lead">Informativa sul trattamento dei dati personali resa ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (GDPR) per i visitatori del sito www.olisticstudio.com.</p>
+    <p class="page-date">Ultimo aggiornamento: 19 settembre 2026</p>
+  </div>
+</section>
+
+<!-- ═══ CONTENUTO ═══ -->
+<section id="article">
+  <div class="legal">
+
+    <h2>1. Titolare del trattamento</h2>
+    <p>Studio massoterapico e riflessogeno di Paolo Torri, Via Plezzo 36, 20100 Milano (MI)<br>
+    Codice Fiscale: TRRPLA75B07F205Q · P.IVA: IT09871390960<br>
+    Email: <a href="mailto:paolo.torri@olisticstudio.com">paolo.torri@olisticstudio.com</a> · Tel: +39 388 47 56 132</p>
+
+    <h2>2. Dati raccolti tramite il sito</h2>
+    <p>Questo sito non contiene moduli di contatto, newsletter, aree riservate o altri strumenti che raccolgano direttamente dati personali. I canali di contatto proposti (WhatsApp, email, telefono) sono collegamenti verso servizi esterni: se scegli di scrivere o telefonare, i dati che comunichi (nome, numero di telefono, indirizzo email, contenuto del messaggio) vengono trattati dal Titolare al solo scopo di rispondere alla richiesta e organizzare l'eventuale appuntamento.</p>
+    <p>Durante la navigazione, il sito memorizza sul tuo dispositivo un unico dato tecnico (nella memoria locale del browser) per ricordare che hai preso visione dell'avviso sui cookie. Questo dato non identifica la persona e non viene trasmesso al Titolare. Per i dettagli consulta la <a href="cookie.html">Cookie Policy</a>.</p>
+
+    <h2>3. Dati di navigazione e hosting</h2>
+    <p>Il sito è ospitato sull'infrastruttura di Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA). Per erogare le pagine e proteggere il servizio, i server di Vercel registrano automaticamente nei propri log tecnici dati quali l'indirizzo IP del dispositivo, la data e l'ora della richiesta, la pagina visitata e il tipo di browser. Questi dati sono trattati da Vercel, in qualità di responsabile del trattamento, per finalità esclusivamente tecniche e di sicurezza e per il tempo strettamente necessario, secondo la <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">privacy policy di Vercel</a>. L'eventuale trasferimento verso gli Stati Uniti avviene sulla base delle Clausole Contrattuali Standard adottate dalla Commissione Europea.</p>
+
+    <h2>4. Finalità e base giuridica</h2>
+    <ul>
+      <li><strong>Risposta alle richieste di contatto e prenotazione di appuntamenti</strong>: base giuridica è l'esecuzione di misure precontrattuali adottate su richiesta dell'interessato (art. 6, par. 1, lett. b) GDPR).</li>
+      <li><strong>Sicurezza e corretto funzionamento del sito</strong> (log tecnici del servizio di hosting): base giuridica è il legittimo interesse del Titolare (art. 6, par. 1, lett. f) GDPR).</li>
+    </ul>
+
+    <h2>5. Modalità di trattamento e conservazione</h2>
+    <p>I dati ricevuti tramite i canali di contatto sono trattati manualmente dal Titolare, con strumenti idonei a garantirne la sicurezza e la riservatezza. Non vengono ceduti a terzi né utilizzati per finalità di marketing o profilazione. Le comunicazioni sono conservate per il tempo strettamente necessario a gestire la richiesta e comunque non oltre 24 mesi, salvo diversi obblighi di legge. Le conversazioni su WhatsApp, email o telefono restano inoltre archiviate nei rispettivi servizi secondo le policy di conservazione di quei fornitori.</p>
+
+    <h2>6. Servizi di terze parti</h2>
+    <p>Le pagine del sito richiamano i seguenti servizi esterni:</p>
+    <ul>
+      <li><strong>Google Fonts</strong> (Google LLC): caricamento dei caratteri tipografici dai server <code>fonts.googleapis.com</code> e <code>fonts.gstatic.com</code>. Il browser dell'utente invia a Google l'indirizzo IP necessario a servire il file. Privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li><strong>Vercel Inc.</strong>: servizio di hosting, come descritto al punto 3.</li>
+    </ul>
+    <div class="note">
+      <strong>Nessuna mappa incorporata.</strong> Il sito non integra Google Maps nelle proprie pagine: i pulsanti che rimandano alla sede aprono Google Maps in una nuova scheda, come semplice collegamento esterno. Solo da quel momento si applica l'informativa privacy di Google.
+    </div>
+    <p>Allo stesso modo, i collegamenti a WhatsApp, Instagram, Facebook e YouTube sono semplici link esterni: nessun contenuto, script o pixel di tali piattaforme viene caricato all'interno del sito. Quando li segui, esci dal sito e il trattamento dei tuoi dati è regolato dalle informative dei rispettivi gestori.</p>
+
+    <h2>7. Diritti dell'interessato</h2>
+    <p>Ai sensi degli articoli 15-22 del GDPR, hai diritto di ottenere l'accesso ai tuoi dati, la rettifica, la cancellazione, la limitazione del trattamento, la portabilità e di opporti al trattamento. Puoi esercitare questi diritti in qualsiasi momento scrivendo a <a href="mailto:paolo.torri@olisticstudio.com">paolo.torri@olisticstudio.com</a>.</p>
+
+    <h2>8. Reclamo all'Autorità di controllo</h2>
+    <p>Hai il diritto di proporre reclamo al Garante per la Protezione dei Dati Personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">garanteprivacy.it</a>) qualora ritenga che il trattamento dei tuoi dati violi la normativa vigente.</p>
+
+    <h2>9. Modifiche a questa informativa</h2>
+    <p>Questa informativa può essere aggiornata nel tempo, ad esempio in caso di modifiche agli strumenti utilizzati dal sito. La data dell'ultimo aggiornamento è indicata in cima alla pagina.</p>
+
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <img src="images/logo-olistic-studio.webp" alt="Olistic Studio" class="footer-logo">
+    </div>
+    <div>
+      <div class="footer-col-label">Tecniche</div>
+      <div class="footer-links">
+        <a href="riflessologia-plantare.html" class="footer-link">Riflessologia Plantare</a>
+        <a href="terapia-craniosacrale.html" class="footer-link">Craniosacrale</a>
+        <a href="massaggio-dei-meridiani.html" class="footer-link">Massaggio dei Meridiani</a>
+        <a href="kinesio-taping.html" class="footer-link">Kinesio Taping</a>
+        <a href="index.html#tecniche" class="footer-link">Tutte le tecniche</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-label">Studio</div>
+      <div class="footer-links">
+        <a href="index.html#metodo" class="footer-link">Il Metodo</a>
+        <a href="index.html#maternita" class="footer-link">Maternità</a>
+        <a href="index.html#terapeuta" class="footer-link">Paolo Torri</a>
+        <a href="index.html#dove" class="footer-link">Dove Siamo</a>
+        <a href="index.html#contatti" class="footer-link">Contatti</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-label">Associazione</div>
+      <div class="footer-links">
+        <a href="http://www.olisticteam.org" class="footer-link" target="_blank">A.I.R.R.C.S.</a>
+        <a href="mailto:p.torri@olisticteam.org" class="footer-link">p.torri@olisticteam.org</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Studio massoterapico e riflessogeno di Paolo Torri · Via Plezzo 36 · Milano 20100</span>
+    <span>Sito realizzato da <a href="https://www.massimodassano.it" target="_blank" rel="noopener noreferrer" class="footer-legal">Massimo Dassano</a></span>
+    <span style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center">
+      <a href="privacy.html" class="footer-legal">Privacy Policy</a>
+      <a href="cookie.html" class="footer-legal">Cookie Policy</a>
+    </span>
+  </div>
+</footer>
+
+<!-- ═══ COOKIE BANNER ═══ -->
+<div id="cookie-banner" role="region" aria-label="Avviso cookie">
+  <p class="cookie-text">
+    Questo sito utilizza <strong>solo cookie tecnici</strong> e non impiega strumenti di profilazione, analytics o mappe incorporate. L'unico servizio esterno è <strong>Google Fonts</strong>, per i caratteri tipografici.
+    Leggi la <a href="privacy.html" style="color:var(--sage-lt);text-decoration:underline">Privacy Policy</a>
+    e la <a href="cookie.html" style="color:var(--sage-lt);text-decoration:underline">Cookie Policy</a>.
+  </p>
+  <div class="cookie-btns">
+    <button class="btn-accept" onclick="dismissCookieNotice()">Ho capito</button>
+  </div>
+</div>
+
+<script>
+  const burger = document.getElementById('burger');
+  const mobMenu = document.getElementById('mobile-menu');
+  burger.addEventListener('click', () => mobMenu.classList.add('open'));
+  document.getElementById('mob-close').addEventListener('click', () => mobMenu.classList.remove('open'));
+  mobMenu.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', () => mobMenu.classList.remove('open')));
+
+  function lsGet(k) { try { return localStorage.getItem(k); } catch(e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch(e) {} }
+  if (!lsGet('cookie_notice_seen')) { document.getElementById('cookie-banner').style.display = 'flex'; }
+  function dismissCookieNotice() { lsSet('cookie_notice_seen', '1'); document.getElementById('cookie-banner').style.display = 'none'; }
+</script>
+</body>
+</html>

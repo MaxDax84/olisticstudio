@@ -1,1 +1,9 @@
 .vercel
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+
+# Materiale di lavoro: resta in locale, non va nel repo ne' sul deploy
+backup-sito-vecchio/
+content/

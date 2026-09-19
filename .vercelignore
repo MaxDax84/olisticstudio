@@ -1,0 +1,8 @@
+.git
+.claude
+.vercel
+*.log
+
+# Materiale di lavoro: mai caricato sul deploy (vale anche per "vercel deploy" da CLI)
+backup-sito-vecchio/
+content/

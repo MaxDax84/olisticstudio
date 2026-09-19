@@ -22,10 +22,10 @@
     { "source": "/i-trattamenti1-trattamenti-per-gli-atleti", "destination": "/#tecniche", "permanent": true },
     { "source": "/i-trattamenti1-trattamenti-per-la-bellezza", "destination": "/#tecniche", "permanent": true },
     { "source": "/i-trattamenti1-trattamenti-per-la-salute", "destination": "/#tecniche", "permanent": true },
-    { "source": "/partner", "destination": "/", "permanent": true }
-  ],
-  "rewrites": [
-    { "source": "/((?!robots.txt|sitemap.xml).*)", "destination": "/index.html" }
+    { "source": "/partner", "destination": "/", "permanent": true },
+    { "source": "/trattamento-per-la-salute.html", "destination": "/#tecniche", "permanent": true },
+    { "source": "/trattamenti-per-la-bellezza.html", "destination": "/#tecniche", "permanent": true },
+    { "source": "/trattamenti-per-gli-atleti.html", "destination": "/#tecniche", "permanent": true }
   ],
   "headers": [
     {
@@ -33,7 +33,13 @@
       "headers": [
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
         { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+        }
       ]
     }
   ]
